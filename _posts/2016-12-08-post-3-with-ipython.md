@@ -931,7 +931,7 @@ pylab.show()
 ```
 
 
-![png](stembl.github.io/_posts/Fangohr_Python_Intro_files/Fangohr_Python_Intro_48_0.png)
+![png](ipyim/Fangohr_Python_Intro_files/Fangohr_Python_Intro_48_0.png)
 
 
 
@@ -970,7 +970,7 @@ plt.show()
 ```
 
 
-![png](stembl.github.io/_posts/Fangohr_Python_Intro_files/Fangohr_Python_Intro_49_0.png)
+![png](ipyim/Fangohr_Python_Intro_files/Fangohr_Python_Intro_49_0.png)
 
 
 ## Chapter 16, Numerical Methods using Python (scipy)
@@ -1039,7 +1039,7 @@ pylab.show()
 ```
 
 
-![png](stembl.github.io/_posts/Fangohr_Python_Intro_files/Fangohr_Python_Intro_52_0.png)
+![png](ipyim/Fangohr_Python_Intro_files/Fangohr_Python_Intro_52_0.png)
 
 
 
@@ -1089,7 +1089,7 @@ plt.show()
 ```
 
 
-![png](stembl.github.io/_posts/Fangohr_Python_Intro_files/Fangohr_Python_Intro_53_0.png)
+![png](ipyim/Fangohr_Python_Intro_files/Fangohr_Python_Intro_53_0.png)
 
 
 
