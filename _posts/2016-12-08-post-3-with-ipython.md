@@ -881,7 +881,7 @@ pylab.show()
     
 
 
-![png](stembl.github.io/_posts/Fangohr_Python_Intro_files/Fangohr_Python_Intro_46_1.png)
+![png](ipyim/Fangohr_Python_Intro_files/Fangohr_Python_Intro_46_1.png)
 
 
 ## Chapter 15, Visualizing Data
