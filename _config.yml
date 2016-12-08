@@ -13,15 +13,15 @@ fenced_code_blocks:  true
 permalink:           pretty
 
 # Setup
-title:            Computing Thoughts
-tagline:          Bruce Eckel's Programming Blog
-url:              http://bruceeckel.github.io/
+title:            Title Test
+tagline:          Title Tag Line
+url:              http://stembl.github.io/
 paginate:            5
 baseurl:          /
 
 # About/contact
 author:
-  name:           Bruce Eckel
-  url:            http://www.mindviewinc.com
-  email:          mindviewinc@gmail.com
+  name:           Steve Embleton
+  url:            http://www.stembl.github.io
+  email:          embleton@gmail.com
 
