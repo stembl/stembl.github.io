@@ -1,6 +1,6 @@
 ---
 layout: post
 published: true
-title: Test Title
+title: First Post
 ---
 Hello World!

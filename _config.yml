@@ -13,8 +13,8 @@ fenced_code_blocks:  true
 permalink:           pretty
 
 # Setup
-title:            Title Test
-tagline:          Title Tag Line
+title:            Natural Design
+tagline:          Steve Embleton's Blog
 url:              http://stembl.github.io/
 paginate:            5
 baseurl:          /
