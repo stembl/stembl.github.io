@@ -1,127 +1,95 @@
-<style>
-table {
- font-family: Georgia;
- border-collapse: collapse;
- text-align: center;
- width: 100%;
-}
+---
+title: Resume
+---
 
-td, th{
- text-align: center;
- valigh:top;
- padding: 8px;
- width: 30%;
-}
+# Steve Embleton
+---
+Mechanical Engineer
 
-</style>
-<h1 style="text-align: center; font-family: Georgia;">Steve Embleton</h1>
-<hr>
-<table>
-  <tr>
-    <td>E-MAIL<br>
-		<a href="mailto:embleton@gmail.com">embleton@gmail.com</a></td>
-	<td>WEBSITES<br>
-		<a href="http://stembl.github.io">Blog</a><br>
-		<a href="http://steve.embletonblog.com">Profile</a><br>
-		<a href="http://www.linkedin.com/pub/steve-embleton/1b/287/591/">Linkedin</a></td>
-	<td>TELEPHONE<br>
-		<a href="tel:1-512-525-8278">512-565-8278</a></td>
+<div id="webaddress">
+<a href="mailto:embleton@gmail.com">embleton@gmail.com</a>
+|
+<i class="fa fa-github"></i> <a href="http://stembl.github.io">Blog</a>
+|
+<i class="fa fa-twitter"></i> <a href="http://steve.embletonblog.com">Profile</a>
+|
+<i class="fa fa-twitter"></i> <a href="http://www.linkedin.com/pub/steve-embleton/1b/287/591/">Linkedin</a>
+|
+<i class="fa fa-twitter"></i> <a href="tel:1-512-525-8278">512.565.8278</a>
+</div>
+---
+## Currently
 
-  </tr>
-</table>
-<hr>
+I'm a Systems Engineer at [Dell](http://www.dell.com/about).
 
-###WORK EXPERIENCE
+## Employment
 
-####Dell Incorporated - Systems Integration Engineer
-06/2012-Present
+`06/2012-Present` 
+__[Dell, Inc.](http://www.dell.com/about)__ 
+*Systems Engineer* 
 
-  </tr>
-  </table>
+* Created transportation test specifications for servers, racks, and packaging for DCS. Managing testing, analysis, and dissemination of results.
+* Leading data collection and analysis of shock and vibration events from integration through deployment.
+* Designed, prototyped, and shipped solutions including racks, shock pallets, and thermal ducting.
+* Developed and shipped solutions working closely with customers, integrators, and suppliers.
 
-  <table>
-  <tr>
-  <td style=text-align:left><font color=teal>Systems Integration Engineer</font><br>
-  <ul>
-   <li>Created transportation test specifications for servers, racks, and packaging for DCS. Managing testing, analysis, and dissemination of results.</li>
-   <li>Leading data collection and analysis of shock and vibration events from integration through deployment.</li>
-   <li>Designed, prototyped, and shipped solutions including racks, shock pallets, and thermal ducting.</li>
-   <li>Developed and shipped solutions working closely with customers, integrators, and suppliers.</li>
-  </ul>
-  </td>
-  </tr>
-  </table>
+`09/2008-06/2012` 
+__University of Texas__ 
+*Graduate Research Assistant*
+ 
+* Engineering technical advisor and content developer for UTeach pilots.
+* Designed, tested, and disseminated novel methods for material analysis and selection.
 
-  <table>
-  <tr>
-  <td style=text-align:left><font color=blue>University of Texas</font></td>
-  <td style=text-align:right><font color=grey>09/2008-06/2012</font></td>
-  </tr>
-  </table>
+`12/2006-09/2008` 
+__Applied Research Labs__ 
+*Engineering Scientist Associate*
 
-  <table>
-  <tr>
-  <td style=text-align:left><font color=teal>Graduate Research Assistant</font><br>
-  <ul>
-   <li>Engineering technical adviser and content developer for UTeach pilots.
-   <li>Designed, tested, and disseminated novel methods for material analysis and selection.</li>
-  </ul>
-  </td>
-  </tr>
-  </table>
+* Designed a sonar system 75% lighter and 90% cheaper than existing systems.
+* Designed, prototyped, and implemented sonar systems installed on US submarines.
+* Mechanical design lead for inhouse unmanned underwater vehicle.
 
-  <table>
-  <tr>
-  <td style=text-align:left><font color=blue>Applied Research Labs</font></td>
-  <td style=text-align:right><font color=grey>12/2006-09/2008</font></td>
-  </tr>
-  </table>
 
-  <table>
-  <tr>
-  <td style=text-align:left><font color=teal>Engineering Scientist Associate</font><br>
-  <ul>
-   <li>Designed a sonar system 75% lighter and 90% cheaper than existing systems.</li>
-   <li>Designed, prototyped, and implemented sonar systems installed on US submarines.</li>
-   <li>Mechanical design lead for in-house unmanned underwater vehicle.</li>
-  </ul>
-  </td>
-  </tr>
-  </table>
+## Education
 
-</td>
-<td width=50%; valign=top>
-<h4>EDUCATION<hr></h4>
-<p style=text-align:left>MS Engineering, Mechanical: Acoustics<br>
-BS Engineering, Mechanical: Design<br>
-University of Texas at Austin<br>
-<font color=grey>2002-2006, 2008-2012</font><br>
-GPA: 3.3<br><br>
+`2002-06`
+__University of Texas__ BS Mechanical Engineering 
 
-Student Engineer<br>
-Applied Research Labs&nbsp;&nbsp;
-<font color=grey>09/2002 - 12/2006</font>
-</p>
-<h4>Patents<hr></h4>
- <ul style=text-align:left>
- <li><a href="{{https://www.google.com/patents/US9445534}}">US 9445534 B2</a><br>Compute device casing that doubles as packaging and shipping container for the compute device
- </li>
- <li><a href="{{https://www.google.com/patents/US9380727}}">US 9380727 B2</a><br>
- Modular information technology (IT) rack and air flow system
- </li>
- </ul>
-<h4>SKILLS<hr></h4>
- <ul  style=text-align:left>
- <li>Expert in Design Methodology</li>
- <li>Shock and Vibration analysis</li>
- <li>CAD and FEA (CREO/SW)</li>
- <li>Matlab, R, Mathcad</li>
- <li>Labview and NI DAQ products</li>
- <li>Prototyping, molding, machine and wood shop, soldering, circuitry, and welding.</li>
+`2008-12`
+__University of Texas__ MS Mechanical Engineering, Acoustics and Design
 
-</td>
-</tr>
-</table>
+`09/2002-12/2006`
+__Applied Research Labs__ Student Engineer
 
-</body>
-</html>
+## Patents
+
+* __[US 9445534 B2](https://www.google.com/patents/US9445534)__
+Compute device casing that doubles as packaging and shipping container for the compute device
+* __[US 9380727 B2](https://www.google.com/patents/US9380727)__
+Modular information technology (IT) rack and air flow system
+
+## Publications
+
+<!-- ### Dissertation -->
+
+`2011`
+Embleton, Steven T. Methodology for the Design of Hydrophone Acoustic Baffles and Supporting Materials. MS Thesis. University of Texas.
+
+## Skills
+
+* Expert in Design Methodology
+* Shock and Vibration Analysis
+* Electronics Packaging
+* CAD and FEA (CREO, Solidworks, Ansys)
+* Python, R, Matlab, Mathcad
+* Data Visualization
+* Prototyping, Mechatronics, Machine and Wood Shop
+
+## Projects
+
+### Blog
+
+I write an engineering blog at [stembl.github.io](http://stembl.github.io) where I apply Python to my research and post the results. My research focuses on the design extremes of nature and its applicability to human design.
+
+<!-- ### Footer
+
+Last updated: 12/09/2016 -->
