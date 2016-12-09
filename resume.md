@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <style>
 table {
  font-family: Georgia;
@@ -11,22 +9,21 @@ table {
 td, th{
  text-align: center;
  padding: 8px;
+ width: 30%;
 }
 
-
 </style>
-<body>
 <h1 style="text-align: center; font-family: Georgia;">Steve Embleton</h1>
 <hr>
 <table>
   <tr>
-    <td width=33%>E-MAIL<br>
+    <td>E-MAIL<br>
 		<a href="mailto:embleton@gmail.com">embleton@gmail.com</a></td>
-	<td width=33%>WEBSITES<br>
+	<td>WEBSITES<br>
 		<a href="{{http://stembl.github.io}}">Blog</a><br>
 		<a href="{{http://steve.embletonblog.com}}">Profile</a><br>
 		<a href="{{http://www.linkedin.com/pub/steve-embleton/1b/287/591/}}">Linkedin</a></td>
-	<td width=33%>TELEPHONE<br>
+	<td>TELEPHONE<br>
 		<a href="tel:1-512-525-8278">512-565-8278</a></td>
 
   </tr>
