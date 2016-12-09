@@ -1,7 +1,4 @@
----
-layout: cv
-title: Ben Moore's CV
----
+
 # Benjamin L. Moore
 Bioinformatics PhD and data scientist
 
