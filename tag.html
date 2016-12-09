@@ -46,9 +46,9 @@ Here we generate all the tags.
   {% for post in site.posts %}
   {% if post.tags contains tag %}
   <li>
-    
-      <a href="{{ post.url }}">
-        <h3>{{ post.title }}&nbsp;|&nbsp;<small class="post-date">{{ post.date | date_to_string }}</small></h3>
+    <h3>
+      <a class="post-title" href="{{ post.url }}">
+        {{ post.title }}&nbsp;|&nbsp;<small class="post-date">{{ post.date | date_to_string }}</small>
       </a>
 
       <!-- adds tags to the end of posts
@@ -56,7 +56,7 @@ Here we generate all the tags.
       <a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
       {% endfor %} -->
 
-    
+    </h3>
   </li>
   {% endif %}
   {% endfor %}
