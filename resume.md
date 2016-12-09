@@ -1,5 +1,4 @@
 ---
-layout:
 title: 
 ---
 # Steve Embleton
