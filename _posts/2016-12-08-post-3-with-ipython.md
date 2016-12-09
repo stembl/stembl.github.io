@@ -2,6 +2,8 @@
 layout: post
 published: True
 title: Post 3 With Ipython
+category: Notes
+tags: [programming, python]
 ---
 
 
