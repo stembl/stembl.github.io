@@ -21,7 +21,7 @@ p{
 
 <table>
   <tr>
-    <td width=33%>E-MAIL<br>
+    <td width: 33%>E-MAIL<br>
 		embleton@gmail.com</td>
 	<td width=33%>WEBSITES<br>
 		stembl.github.io<br>
