@@ -1,8 +1,8 @@
 ---
-title: Resume
+layout: cv
+title: Steve Embleton
 ---
 
-# Steve Embleton
 ---
 Mechanical Engineer
 
@@ -18,6 +18,7 @@ Mechanical Engineer
 <i class="fa fa-twitter"></i> <a href="tel:1-512-525-8278">512.565.8278</a>
 </div>
 ---
+
 ## Currently
 
 I'm a Systems Engineer at [Dell](http://www.dell.com/about).
