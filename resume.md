@@ -1,4 +1,4 @@
-
+<html>
 <style>
 table {
     font-family: Georgia;
@@ -11,18 +11,19 @@ td, th{
     text-align: left;
     padding: 8px;
 	background-color: #ffffff
+	text-align: center;
 }
 tr{
 	
 }
 
 </style>
-
+<body>
 <h1 style="text-align: center; font-family: Georgia;">Steve Embleton</h1>
 
 <table>
   <tr>
-    <td>E-MAIL<br>
+    <td width=60%>E-MAIL<br>
 		embleton@gmail.com</td>
 	<td>WEBSITES<br>
 		stembl.github.io<br>
@@ -33,3 +34,5 @@ tr{
 
   </tr>
 </table>
+</body>
+</html>
