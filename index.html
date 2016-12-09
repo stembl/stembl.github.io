@@ -2,9 +2,11 @@
 layout: default
 title: Home
 ---
-<div style="margin-right:.5em;text-align:right;">
+<!-- Adds a Browse by Cat. or Tag header
+<div style="display:inline-block;margin-left:.5em;">
     Browse by <a href="/category/">Category</a> or <a href="/tag/">Tag</a><hr>
-</div>
+</div>-->
+
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -35,7 +37,6 @@ title: Home
     </div>
   {% endfor %}
 </div>
-
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
