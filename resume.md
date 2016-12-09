@@ -8,6 +8,7 @@ table {
 
 td, th{
  text-align: center;
+ valigh:top;
  padding: 8px;
  width: 30%;
 }
@@ -20,9 +21,9 @@ td, th{
     <td>E-MAIL<br>
 		<a href="mailto:embleton@gmail.com">embleton@gmail.com</a></td>
 	<td>WEBSITES<br>
-		<a href="{{http://stembl.github.io}}">Blog</a><br>
-		<a href="{{http://steve.embletonblog.com}}">Profile</a><br>
-		<a href="{{http://www.linkedin.com/pub/steve-embleton/1b/287/591/}}">Linkedin</a></td>
+		<a href="http://stembl.github.io">Blog</a><br>
+		<a href="http://steve.embletonblog.com">Profile</a><br>
+		<a href="http://www.linkedin.com/pub/steve-embleton/1b/287/591/">Linkedin</a></td>
 	<td>TELEPHONE<br>
 		<a href="tel:1-512-525-8278">512-565-8278</a></td>
 
@@ -30,16 +31,11 @@ td, th{
 </table>
 <hr>
 
-<table>
-<tr padding:8px>
-<td width=50%; valign=top>
- 
- <h4>WORK EXPERIENCE<hr></h4>
-  
-  <table>
-  <tr>
-  <td style=text-align:left><font color=blue>Dell Incorporated</font></td>
-  <td style=text-align:right><font color=grey>06/2012-Present</font></td>
+###WORK EXPERIENCE
+
+####Dell Incorporated - Systems Integration Engineer
+06/2012-Present
+
   </tr>
   </table>
 
