@@ -10,10 +10,10 @@ table {
 td, th{
     text-align: left;
     padding: 8px;
+	background-color: #ffffff
 }
-p{
-	font-family: Georgia;
-	text-align: center;
+tr{
+	
 }
 
 </style>
