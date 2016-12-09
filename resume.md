@@ -3,11 +3,10 @@ table {
     font-family: Georgia;
     border-collapse: collapse;
 	text-align: center;
-    width: 100%;
+    width: 99%;
 }
 
 td, th{
-    border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
@@ -22,13 +21,13 @@ p{
 
 <table>
   <tr>
-    <td>E-MAIL<br>
+    <td width=33%>E-MAIL<br>
 		embleton@gmail.com</style></td>
-	<td>WEBSITES<br>
+	<td width=33%>WEBSITES<br>
 		stembl.github.io<br>
 		steve.embletonblog.com<br>
 		Linkedin</td>
-	<td>TELEPHONE<br>
+	<td width=33%>TELEPHONE<br>
 		512-525-8278</td>
 
   </tr>
