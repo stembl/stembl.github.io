@@ -1,3 +1,6 @@
+---
+title: Resume
+---
 
 # Benjamin L. Moore
 Bioinformatics PhD and data scientist
