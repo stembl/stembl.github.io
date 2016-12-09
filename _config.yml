@@ -6,7 +6,6 @@ redcarpet:
 
 highlighter:         rouge
 fenced_code_blocks:  true
-
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -14,7 +13,7 @@ permalink:           pretty
 
 # Setup
 title:            Natural Design
-tagline:          Steve Embleton's Blog
+tagline:          Exploring the conflict between nature and physics.
 url:              http://stembl.github.io/
 paginate:            5
 baseurl:          /
