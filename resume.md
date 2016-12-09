@@ -1,8 +1,8 @@
 ---
-layout: cv
-title: Steve Embleton
+layout:
+title: 
 ---
-
+# Steve Embleton
 ---
 Mechanical Engineer
 
