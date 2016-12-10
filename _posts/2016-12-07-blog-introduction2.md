@@ -43,7 +43,5 @@ A list of the sites, blogs, and github directories that I used to create this si
 	*  This required a bit of tweaking to make it work with the basic site. I added the category.html and tag.html to the base folder with index.html.
 	*  I changed the title of each to Categories and Tags and layout to default for both.
 	*  I added Tags and Categories to the header.   This example is from the categories.html.
-
-	* For the links on the Category and Tag pages, I needed to use <code> instead of <small>.  This example is from the categories.html.'
-
+	* For the links on the Category and Tag pages, I needed to use <code> instead of <small>.  This example is from the categories.html.
 	* Finally, I commented out the header used in the index to minimize clutter on the front page.
