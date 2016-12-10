@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Blog Introduction3
+title: Creating a GitHub Blog and Sharing Jupyter Notebooks
 category: blog
 tags: goals
 ---
