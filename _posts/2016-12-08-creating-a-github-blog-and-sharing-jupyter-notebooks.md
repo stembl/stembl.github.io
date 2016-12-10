@@ -43,5 +43,7 @@ A list of the sites, blogs, and github directories that I used to create this si
 	*  This required a bit of tweaking to make it work with the basic site. I added the category.html and tag.html to the base folder with index.html.
 	*  I changed the title of each to Categories and Tags and layout to default for both.
 	*  I added Tags and Categories to the header.
-	* For the links on the Category and Tag pages, I needed to use `<code>` instead of `<small>`
+	*  <script src="https://gist.github.com/stembl/2cec025eaf3739508bbbd44b67e05250.js"></script>
+	* For the links on the Category and Tag pages, I needed to use `<code>` instead of `<small>`.
+	* <script src="https://gist.github.com/stembl/b3e10eb14fbaf0429a4b831889ec6c48.js"></script>
 	* Finally, I commented out the header used in the index to minimize clutter on the front page.
