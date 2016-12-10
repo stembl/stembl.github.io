@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Research Mission
+title: Blog Introduction
 category: blog
 tags: goals
 ---
