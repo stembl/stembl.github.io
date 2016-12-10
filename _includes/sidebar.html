@@ -23,43 +23,33 @@
 					  border: 1px solid #6a9fb5;}
 		</style>
 	    
-		<table width=100%>
-		<tr>
-		<td>
-			<table style="text-align:center;" width=100%>
-		  		<tr>
-		    	<td style="background-color:#6a9fb5;"><a href="/">Home</a></td>
-				<td style="background-color:#6a9fb5;"><a href="http://steve.embletonblog.com" target="_blank">About</a></td>
-				<td style="background-color:#6a9fb5;"><a href="/resume/">Resume</a></td>
-		 		</tr>
-				<tr>
-		    	<td><a href="/todo">To-Do</a>
-				<td><a href="/books">Books</a>
-				<td><a href="http://github.com/stembl">Github</a>
-		 		</tr>
-			</table>
-		</td>
-		</tr>
-		<tr>
-		<td>
-			<table width=100%;>
-				<tr>
-				<td style="background-color:#6a9fb5;">Search Blog: <form onsubmit="search_google()" ><input type="text" id="google-search"></form>
-				</td>
-				</tr>
-			</table>
-		</td>
-		</tr>
-		<tr>
-		<td>
-			<table style="text-align:center;" width=100%;>
-				<tr>
-				<td style="background-color:#6a9fb5;" width=50%><a href="/tag/">Tags</a></td>
-				<td style="background-color:#6a9fb5;" width=50%><a href="/category/">Categories</a></td>
-				</tr>
-			</table>
-		</td>
-		</tr>
+		<table style="text-align:center;" width=100%>
+	  		<tr>
+	    	<td><a href="/">Home</a></td>
+			<td style="background-color:#6a9fb5;"><a href="http://steve.embletonblog.com" target="_blank">About</a></td>
+			<td style="background-color:#6a9fb5;"><a href="/resume/">Resume</a></td>
+	 		</tr>
+			<tr>
+	    	<td><a href="/todo">To-Do</a>
+			<td><a href="/books">Books</a>
+			<td><a href="http://github.com/stembl">Github</a>
+	 		</tr>
+		</table>
+
+		<table width=100%;>
+			<tr>
+			<td style="background-color:#6a9fb5;">Search Blog: <form onsubmit="search_google()" ><input type="text" id="google-search"></form>
+			</td>
+			</tr>
+		</table>
+
+		<table style="text-align:center;" width=100%;>
+			<tr>
+			<td style="background-color:#6a9fb5;" width=50%><a href="/tag/">Tags</a></td>
+			<td style="background-color:#6a9fb5;" width=50%><a href="/category/">Categories</a></td>
+			</tr>
+		</table>
+
     </div>
     
 	{% for post in site.posts %}
