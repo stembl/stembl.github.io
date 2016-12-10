@@ -18,12 +18,14 @@
   <nav class="sidebar-nav">
     <div class="sidebar-nav-item">
 		<style>
-		table, tr, td{border-collapse:collapse;
-					  background-color:#6a9fb5;}
+		table, tr, td, th{border-collapse:collapse;
+					  background-color:#6a9fb5;
+					  border: 1px solid #6a9fb5;}
 		</style>
-	    <table style="text-align:center;" width=100%>
+	    
+		<table style="text-align:center;" width=100%>
 	  		<tr>
-	    	<td style="background-color:#6a9fb5;"><a href="/">Home</a></td>
+	    	<td><a href="/">Home</a></td>
 			<td style="background-color:#6a9fb5;"><a href="http://steve.embletonblog.com" target="_blank">About</a></td>
 			<td style="background-color:#6a9fb5;"><a href="/resume/">Resume</a></td>
 	 		</tr>
@@ -33,17 +35,19 @@
 			<td><a href="http://github.com/stembl">Github</a>
 	 		</tr>
 		</table>
+
 		<table width=100%;>
-		<tr>
-		<td style="background-color:#6a9fb5;">Search: <form onsubmit="search_google()" ><input type="text" id="google-search"></form>
-		</td>
-		</tr>
+			<tr>
+			<td style="background-color:#6a9fb5;">Search Blog: <form onsubmit="search_google()" ><input type="text" id="google-search"></form>
+			</td>
+			</tr>
 		</table>
+
 		<table style="text-align:center;" width=100%;>
-		<tr>
-		<td style="background-color:#6a9fb5;" width=50%><a href="/tag/">Tags</a></td>
-		<td style="background-color:#6a9fb5;" width=50%><a href="/category/">Categories</a></td>
-		</tr>
+			<tr>
+			<td style="background-color:#6a9fb5;" width=50%><a href="/tag/">Tags</a></td>
+			<td style="background-color:#6a9fb5;" width=50%><a href="/category/">Categories</a></td>
+			</tr>
 		</table>
 
     </div>
