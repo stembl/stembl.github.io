@@ -47,8 +47,3 @@ A list of the sites, blogs, and github directories that I used to create this si
 	* For the links on the Category and Tag pages, I needed to use `<code>` instead of `<small>`.
 	* <script src="https://gist.github.com/stembl/b3e10eb14fbaf0429a4b831889ec6c48.js"></script>
 	* Finally, I commented out the header used in the index to minimize clutter on the front page.
-
-
-Test Ipy
-
-<script src="stembl.github.io/public/ipy/Fangohr_Python_Intro.ipynb"></script>
