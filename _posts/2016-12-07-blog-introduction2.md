@@ -45,16 +45,13 @@ A list of the sites, blogs, and github directories that I used to create this si
 	*  I added Tags and Categories to the header.   This example is from the categories.html.
 
 ```
-
 	<h1 class="page-title"><a href="/">Blog</a>
 	 | <a href="/tag/">Tags</a> | {{ page.title }}</h1>
-
 ```
 
 * For the links on the Category and Tag pages, I needed to use <code> instead of <small>.  This example is from the categories.html.'
 
 ```
-	
 	<li>
 	<h3>
 	  <a href="{{ post.url }}">
@@ -66,7 +63,6 @@ A list of the sites, blogs, and github directories that I used to create this si
 	  {% endfor %}-->
 	</h3>
 	</li>
-
 ```
 
 * Finally, I commented out the header used in the index to minimize clutter on the front page.
