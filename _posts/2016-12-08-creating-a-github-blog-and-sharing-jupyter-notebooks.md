@@ -45,20 +45,3 @@ A list of the sites, blogs, and github directories that I used to create this si
 	*  I added Tags and Categories to the header.
 	* For the links on the Category and Tag pages, I needed to use `<code>` instead of `<small>`
 	* Finally, I commented out the header used in the index to minimize clutter on the front page.
-
-
-<pre><code>
-	<li>
-    <h3>
-      <a href="{{ post.url }}">
-        {{ post.title }}</a>
-        &nbsp;<code class="highlighter-rouge">{{ post.date | date_to_string }}</code>
-      
-	  <!-- adds tags to the end of posts
-	  {% for tag in post.tags %}
-      <a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
-      {% endfor %}-->
-
-    </h3>
-	</li>
-</code></pre>
