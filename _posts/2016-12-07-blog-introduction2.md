@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Blog Introduction
+title: Blog Introduction2
 category: blog
 tags: goals
 ---

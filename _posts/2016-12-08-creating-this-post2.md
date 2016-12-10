@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Creating a GitHub Blog and Sharing Jupyter Notebooks
+title: Creating a GitHub Blog and Sharing Jupyter Notebooks2
 category: blog
 tags: howto
 
