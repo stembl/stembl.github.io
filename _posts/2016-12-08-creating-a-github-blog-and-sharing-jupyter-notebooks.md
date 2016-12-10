@@ -46,7 +46,7 @@ A list of the sites, blogs, and github directories that I used to create this si
 	* For the links on the Category and Tag pages, I needed to use `<code>` instead of `<small>`
 	* Finally, I commented out the header used in the index to minimize clutter on the front page.
 
-```html
+
 <pre><code>
 	<li>
     <h3>
@@ -62,4 +62,3 @@ A list of the sites, blogs, and github directories that I used to create this si
     </h3>
 	</li>
 </code></pre>
-```
