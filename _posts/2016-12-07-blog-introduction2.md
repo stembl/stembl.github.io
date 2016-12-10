@@ -42,6 +42,6 @@ A list of the sites, blogs, and github directories that I used to create this si
 *  Finally, I wanted my posts to be organized with tags.  I used the method detailed in [Use Tags and Categories in your Jekyll based Github Pages without plugins]( https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/).
 	*  This required a bit of tweaking to make it work with the basic site. I added the category.html and tag.html to the base folder with index.html.
 	*  I changed the title of each to Categories and Tags and layout to default for both.
-	*  I added Tags and Categories to the header.   This example is from the categories.html.
-	* For the links on the Category and Tag pages, I needed to use <code> instead of <small>.  This example is from the categories.html.
+	*  I added Tags and Categories to the header.   This example is from the `categories.html`.
+	* For the links on the Category and Tag pages, I needed to use `<code>` instead of `<small>`.  This example is from the `categories.html`.
 	* Finally, I commented out the header used in the index to minimize clutter on the front page.
