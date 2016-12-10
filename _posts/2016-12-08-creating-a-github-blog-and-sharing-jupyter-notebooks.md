@@ -6,9 +6,9 @@ category: blog
 tags: [howto, todo]
 ---
 
-This blog was built using a lot of different examples which I've tried to detail below.  This is all in windows using:
+This blog was built using a lot of different examples which I've tried to detail below.  This is all in Windows using:
 
-* [Anaconda](https://www.continuum.io/downloads) for Jupyter
+* [Anaconda](https://www.continuum.io/downloads)
 * [GitHub Desktop](https://desktop.github.com/)
 * [MarkdownPad 2](http://markdownpad.com/)
 
@@ -55,4 +55,5 @@ A list of the sites, blogs, and github directories that I used to create this si
 * For troubleshooting elements of the blog, I would make small changes and commit them.  Then I would open the website in incognito mode to prevent my browser from storing any of the data.  This allowed me to check features pretty quickly.
 	* Be careful when modifying the header of posts. Adding returns seems to break the post.
 * I ran into a lot of problems trying to display the HTML code within this post. Many of the methods I tried ended up breaking the post causing it to not display. I would then receive an email from GitHub with "The value 'nil' was passed to a date-related filter that expects valid dates...".  The solution I used was to submit [Gists](https://gist.github.com/) and embed the generated `<script src=...` code.
+* To make the code look nice and add some style to the Tag and Category pages I used `<code class="highlighter-rouge">...</code>`
 	
