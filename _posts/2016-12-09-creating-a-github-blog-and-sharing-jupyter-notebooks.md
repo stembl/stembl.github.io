@@ -4,7 +4,6 @@ published: true
 title: Creating a GitHub Blog and Sharing Jupyter Notebooks
 category: blog
 tags: howto
-
 ---
 
 This blog was built using a lot of different examples which I've tried to detail below.  This is all in windows using:
