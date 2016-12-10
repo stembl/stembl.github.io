@@ -39,3 +39,11 @@ A list of the sites, blogs, and github directories that I used to create this si
 * To add Jupyter notebooks I followed the steps on Brian Caffey's post, [Including Jupyter Notebooks in Jekyll blog posts](http://briancaffey.github.io/2016/03/14/ipynb-with-jekyll.html).
 	*  I recommend adding the image files to a new folder with the path `/public/img/`.
 	*  I need to create a python script to automate the path insertion. [[To-Do]](/todo/)
+*  Finally, I wanted my posts to be organized with tags.  I used the method detailed in [Use Tags and Categories in your Jekyll based Github Pages without plugins]( https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/).
+	*  This required a bit of tweaking to make it work with the basic site. I added the category.html and tag.html to the base folder with index.html.
+	*  I changed the title of each to Categories and Tags and layout to default for both.
+	*  I added Tags and Categories to the header.   This example is from the categories.html.
+
+	<h1 class="page-title"><a href="/">Blog</a> | <a href="/tag/">Tags</a> | {{ page.title }}
+	</h1>
+
