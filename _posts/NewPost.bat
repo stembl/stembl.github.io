@@ -3,7 +3,7 @@
 import os, string, datetime
 import easygui # to install: pip install EasyGUI
 
-result = easygui.enterbox(msg="Blog Post Title", title="Name query")
+result = easygui.enterbox(msg="Blog Post Title", title="Name Query")
 postname = result.lower().strip().replace(" ", "-")
 postname = datetime.date.today().strftime("%Y-%m-%d-") + postname + ".md"
 
@@ -11,6 +11,8 @@ slugline = """---
 layout: post
 published: false
 title: %s
+category:
+tags:
 ---
 
 """ % string.capwords(result)
