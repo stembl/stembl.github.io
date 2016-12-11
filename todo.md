@@ -2,7 +2,7 @@
 title: Task List
 ---
 
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- [ ] Add images to replace cat., tags, linkedin, email, and github.
+- [ ] modify newpost.bat to include cat. and tags.
+- [ ] Figure out why favicon not working on nexus.
+- [ ] Automate path insertion for images, jupyter posts.
