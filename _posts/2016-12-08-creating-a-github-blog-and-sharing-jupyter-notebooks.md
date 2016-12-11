@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Creating a GitHub Blog and Sharing Jupyter Notebooks
 category: blog
-tags: [howto, todo]
+tags: [howto]
 ---
 
 This blog was hacked together using a lot of different examples which I've attempted to detail below.  This was built with a  Windows machine using:
