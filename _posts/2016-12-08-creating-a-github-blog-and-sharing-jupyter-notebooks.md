@@ -26,10 +26,10 @@ I had the following goals in mind while trying to piece together this blog.
 ## Method
 A list of the sites, blogs, and github directories that I used to create this site. This is not meant to be an instruction manual for creating a similar blog, but it should get you started.
 
-### Building the Site
+### Getting Started
 * I started with the [GitHub pages](https://pages.github.com/) tutorial.
 * The majority of my blog was then forked from [Bruce Eckel's GitHub page](https://github.com/BruceEckel/BruceEckel.github.io) following his tutorial in [Using Github Pages for Blogging](http://bruceeckel.github.io/2014/11/19/using-github-pages/)
-	* I needed to install easygui.py to get the newpost.bat program to work.
+	* I needed to install [easygui.py](http://easygui.sourceforge.net/sourceforge_site_as_of_2014_11_21/download/version_0.96/index.html#installingEasyguiOnWindows) to get the newpost.bat program to work. 
 	* I made a few minor style tweaks I'll try to detail below.
 	* I added tag and jupyter functionality.
 * I used this post [Build A Blog With Jekyll And GitHub Pages](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) and the fork above to get the site up and running.
@@ -44,6 +44,8 @@ A list of the sites, blogs, and github directories that I used to create this si
 	* For the links on the Category and Tag pages, I needed to use `<code>` instead of `<small>`.
 	* <script src="https://gist.github.com/stembl/b3e10eb14fbaf0429a4b831889ec6c48.js"></script>
 	* Finally, I commented out the header used in the index to minimize clutter on the front page.
+	* I need to modify the newpost.bat to include tags and categories. [[To-Do]](/todo/)
+	* I would like to add icons for categories, tags, email, linked, and github. [[To-Do]](/todo/)
 
 
 ### Tips and Tricks
@@ -56,4 +58,6 @@ A list of the sites, blogs, and github directories that I used to create this si
 	* Be careful when modifying the header of posts. Adding returns seems to break the post.
 * I ran into a lot of problems trying to display the HTML code within this post. Many of the methods I tried ended up breaking the post causing it to not display. I would then receive an email from GitHub with "The value 'nil' was passed to a date-related filter that expects valid dates...".  The solution I used was to submit [Gists](https://gist.github.com/) and embed the generated `<script src=...` code.
 * To make the code look nice and add some style to the Tag and Category pages I used `<code class="highlighter-rouge">...</code>`. Adding the code block inside `<a href>...</a>`  results in a different color than adding it to the outside.  I used this to differentiate between the tags and the dates.
+* I thought it would be fun to convert my [resume](/resume) to markdown and included it in the sidebar. I used the example detailed in blm.io's [Building an academic CV in markdown](http://blm.io/blog/markdown-academic-cv/).
+* A reference I have up constantly is daringfireball.net's [Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax/).
 	
