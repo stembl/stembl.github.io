@@ -11,4 +11,4 @@ title: Task List
 
 
 ## Complete
-- [`12/11/2016`] Figure out why favicon not working on nexus.
+- [`12/11/2016`] Figure out why favicon not working on my android phone.
