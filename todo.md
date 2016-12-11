@@ -2,11 +2,12 @@
 title: Task List
 ---
 
-- Blog
+## Blog
 	- [ ] Add images to replace cat., tags, linkedin, email, and github.
 	- [ ] modify newpost.bat to include cat. and tags.
 	- [ ] Automate path insertion for images, jupyter posts.
-- Research
+
+## Research
 
 
 ## Complete
