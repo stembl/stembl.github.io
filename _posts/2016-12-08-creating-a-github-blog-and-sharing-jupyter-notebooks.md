@@ -6,13 +6,13 @@ category: blog
 tags: [howto, todo]
 ---
 
-This blog was built using a lot of different examples which I've tried to detail below.  This is all in Windows using:
+This blog was hacked together using a lot of different examples which I've attempted to detail below.  This was built with a  Windows machine using:
 
 * [Anaconda](https://www.continuum.io/downloads)
 * [GitHub Desktop](https://desktop.github.com/)
 * [MarkdownPad 2](http://markdownpad.com/)
 
-All of the files for this blog can be found on [GitHub](http://www.github.com/stembl).
+All of the files for this blog can be found on my [GitHub](http://www.github.com/stembl).
 
 ## Goals
 I had the following goals in mind while trying to piece together this blog.
