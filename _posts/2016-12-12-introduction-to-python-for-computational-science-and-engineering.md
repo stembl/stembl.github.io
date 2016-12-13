@@ -25,33 +25,6 @@ import math
 
 
 ```python
-dir(math)
-
-help(math.exp)
-
-math.pi
-
-math.e
-```
-
-    Help on built-in function exp in module math:
-    
-    exp(...)
-        exp(x)
-        
-        Return e raised to the power of x.
-    
-    
-
-
-
-
-    2.718281828459045
-
-
-
-
-```python
 import cmath
 
 cmath.sqrt(-1)
@@ -65,53 +38,6 @@ cmath.sqrt(-1)
 
 
 
-```python
-a = [1, 2, 3]
-
-print(a)
-
-a.append(45)
-
-print(a)
-
-a.remove(2)
-
-print(a)
-```
-
-    [1, 2, 3]
-    [1, 2, 3, 45]
-    [1, 3, 45]
-    
-
-
-```python
-#Copying and Identity
-
-a = [1, 2, 3, 4, 5]
-b=a
-b[0] = 42
-
-print(a)
-
-c = a[:]
-c[1] = 99
-
-print(a)
-print(c)
-print('id a: ', id(a))
-print('id b: ', id(b))
-print('id c: ', id(c))
-```
-
-    [42, 2, 3, 4, 5]
-    [42, 2, 3, 4, 5]
-    [42, 99, 3, 4, 5]
-    id a:  72139272
-    id b:  72139272
-    id c:  67450824
-    
-
 ## Chapter 4, Introspection
 
 * Magic names start and end with a double underscore
@@ -121,29 +47,6 @@ print('id c: ', id(c))
 * Provide a docstring for user defined functions
 
 
-
-```python
-# Example of documenting a user defined function and calling it.
-
-def power2and3(x):
-    """Returns the tuple (x**2, x**3)"""
-    return x**2 ,x**3
-
-print(power2and3(2))
-
-print(power2and3.__doc__)
-
-help(power2and3)
-```
-
-    (4, 8)
-    Returns the tuple (x**2, x**3)
-    Help on function power2and3 in module __main__:
-    
-    power2and3(x)
-        Returns the tuple (x**2, x**3)
-    
-    
 
 ## Chapter 5, Input and Output
 
@@ -155,7 +58,7 @@ help(power2and3)
 
 
 ```python
-## Copied from pg 52.
+## Copied from Fangohr 2015, page 52.
 
 AU = 149597870700  #Astronomical unit in [m]
 "%g" %AU
@@ -240,27 +143,6 @@ f.close()
     32 characters
     
 
-## Chapter 7, Functions and Modules
-
-* A function takes an argument and returns a result or return value.
-* Function parameter may have default values.
-    * ie. `def print_multi_table(n, upto=10):`
-* Common to have an `if __name__ == "__main__` to output results and capabilities only seen when program is runnin on its own.
-
-Generic Function Format:
-
-    def my_function(arg1, arg2, ..., argn):
-        """Optional docstring."""
-    
-        #Implementation of the function
-    
-        return result #optional
-
-    #this is not part of the function
-    some_command
-    
-
-
 ## Chapter 8, Functional Tools
 
 * Examples using the tools `filter`, `reduce`, and `lamda`.
@@ -274,17 +156,6 @@ Generic Function Format:
     * `filter(lambda x:x>5,range(11))`
 * List comprehension is an expression followed by a for clause, then zero or more for or if clauses.  More consise then the above methods.
 
-
-## Chapter 9, Common Tasks
-
-* Illustrates many ways to compute a series to illustrate the differnt methods possible and also illustrate the different methods we've previously discussed.  Includes a check method and doc file.
-* `sorted` returns a copy of a sorted list while `sort` changes the list insto a sorted order of elements
-
-
-## Chapter 10, Matlab to Python
-* Common differences
-* The extension library numpy provides matrix functionality similar to Matlab
-
 ## Chapter 12, Symbolic Computation
 
 * SymPy is the Python Symbolic library, [SymPy Homepage](http://sympy.org) for full and up-to-date documentation
@@ -295,8 +166,6 @@ Generic Function Format:
 * If Sympy returns the result in an unfamiliar form, subtract it with the expected form to determine if they are equivalent.
 * Calculate definite integrals with a tuple containing the variable of interest, lower, and upper bounds.
 * Results from dsolve are an Equality class, function needs to be evaluated to a number to be plotted.
-* Covers series expansion
-* LaTeX and Pretty printing
 * `preview()` allows you to display rendered output on the screen
 * Automatic generation of C code via `codegen()`
 
@@ -318,21 +187,6 @@ print(sympy.sqrt(8))
 
     2*y + 3*z
     2*sqrt(2)
-    
-
-
-```python
-a = sympy.Rational(2,3)
-print(a)
-print(float(a))
-print(a.evalf())
-print(a.evalf(50))
-```
-
-    2/3
-    0.6666666666666666
-    0.666666666666667
-    0.66666666666666666666666666666666666666666666666667
     
 
 
@@ -388,24 +242,6 @@ print(dsolve(Eq(y_ + 5*y(x), 12), y(x)))
     Eq(y(x), C1*exp(-5*x))
     Eq(y(x), C1*exp(-5*x))
     Eq(y(x), C1*exp(-5*x)/5 + 12/5)
-    
-
-
-```python
-## Linear Equations and Matrix Inversion
-
-from sympy import symbols, Matrix
-
-x, y, z = symbols('x,y,z')
-
-A = Matrix(([3,7], [4,-2]))
-print(A)
-
-print(A.inv())
-```
-
-    Matrix([[3, 7], [4, -2]])
-    Matrix([[1/17, 7/34], [2/17, -3/34]])
     
 
 
@@ -586,27 +422,6 @@ plt.show()
 
 
 
-
-```python
-## Integral Example
-
-from math import cos, exp, pi
-from scipy.integrate import quad
-
-#function  we want to integrate
-def f(x):
-    return exp(cos(-2 * x * pi)) + 3.2
-
-#call quad to integrate f from -2 to 2
-res, err = quad(f, -2, 2)
-
-print("The numerical result is {:f} (+/-{:.2g})" .format(res, err))
-```
-
-    The numerical result is 17.864264 (+/-1.6e-11)
-    
-
-
 ```python
 ## ODE Example
 
@@ -686,7 +501,3 @@ plt.show()
 
 ![png](/public/ipy/Fangohr_2015/output_36_0.png)
 
-
-## Chapter 17, Where to go from here?
-
-* A list of additional skills for computational science work.
