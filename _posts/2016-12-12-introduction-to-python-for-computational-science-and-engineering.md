@@ -2,8 +2,8 @@
 layout: post
 published: true
 title: Introduction To Python For Computational Science And Engineering
-category:
-tags:
+category: notes
+tags:[book,notes,python]
 ---
 
 
