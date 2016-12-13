@@ -1,12 +1,12 @@
 ---
 layout: post
-published: false
+published: true
 title: Fangohr, Introduction To Python For Computational Science And Engineering
 category:notes
 tags:[book, notes, python]
 ---
 
-# Fangohr, Hans. Introduction to Python for Computational Science and Engineering, 2015.
+`Fangohr, Hans. Introduction to Python for Computational Science and Engineering, 2015.`
 
 Fangohr's book was an excellent introduction to python.  Coming from a Matlab background, the structure was easy to follow and very useful. The only negative about this book was that it was written for Python 2 and I working in 3.  This generally didn't pose any problems, generally just remembering that in 3 `print` requires brackets.  I've uploaded my notes [here]() and below are some of the more interesting parts.
 
