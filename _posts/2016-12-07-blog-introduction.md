@@ -7,15 +7,15 @@ tags: goals
 ---
 ## Introduction
 
-I have always been interested in topics around the intersection of Biology and Design. I started really looking at the topic when the term biomimicry was introduced to describe technology inspired by Biology.  At the time, the prototypical examples were velcro and a new exterior paint with self cleaning properties similar to a lotus flower. Since then, amazing Designs have been found in Biology and we've been struggling to capitalize on them.
+I have always been interested in topics around the intersection of Nature and Design. I started really looking at the topic when the term biomimicry was introduced to describe technology inspired by biology.  At the time, the prototypical examples were Velcro and a exterior paint with self cleaning properties similar to a lotus flower. Since then, amazing Designs have been found in Nature and we've been struggling to capitalize on them. I believe this is due to a variety of factors and one I would like to explore is the different design constraints between Human and Natural solutions.
 
 ## Questions
 
 This blog attempt to address the following questions.
 
-* What are the Design constraints of Biological and Human systems?
-* How does Scale affect Biological and Human Design?
-* Can a method be developed to translate a Biological into a Human Design?
+* What are the Design constraints of Natural and Human systems?
+* How does Scale affect Natural and Human Design?
+* Can a method be developed to translate a Natural into a Human Design?
 
 ## Methods
 
