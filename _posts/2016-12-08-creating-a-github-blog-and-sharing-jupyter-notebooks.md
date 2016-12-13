@@ -60,4 +60,7 @@ A list of the sites, blogs, and github directories that I used to create this si
 * To make the code look nice and add some style to the Tag and Category pages I used `<code class="highlighter-rouge">...</code>`. Adding the code block inside `<a href>...</a>`  results in a different color than adding it to the outside.  I used this to differentiate between the tags and the dates.
 * I thought it would be fun to convert my [resume](/resume) to markdown and included it in the sidebar. I used the example detailed in blm.io's [Building an academic CV in markdown](http://blm.io/blog/markdown-academic-cv/).
 * A reference I have up constantly is daringfireball.net's [Markdown: Syntax](https://daringfireball.net/projects/markdown/syntax/).
+* A tool that generates color pallets at [ColorHexa](http://colorhexa.com).
+
+
 	
