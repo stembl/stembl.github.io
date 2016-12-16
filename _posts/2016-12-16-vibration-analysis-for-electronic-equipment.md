@@ -72,10 +72,10 @@ Damping occurs to the right of the amplification peak at R_Omega = sqrt(2).
     2. High stress levels
     3. Large displacement amplitudes
     4. Electrical signals out of tolerance - N.A.
-* sigma is often the limit used because it captures 99.7% of the accelerations and most labs have a 3$\sigma$ limit on their equipment.
+* sigma is often the limit used because it captures 99.7% of the accelerations and most labs have a 3*sigma limit on their equipment.
 * In the math library, natural log is called with (`log`) and log base 10 with (`log10`)
-* Multiple degree of freedom systems (8.29). G_out = sqrt(sum[P_i*Delta*f_i*Q_i^2])
-* From: Crandall, Random Vibration, 1958.  P_out = Q^2*P.  Book available [online](https://babel.hathitrust.org/cgi/pt?id=mdp.39015060919126;view=1up;seq=17).
+* Multiple degree of freedom systems (8.29). G_out = sqrt(sum[P_i Delta f_i Q_i^2])
+* From: Crandall, Random Vibration, 1958.  P_out = Q^2 P.  Book available [online](https://babel.hathitrust.org/cgi/pt?id=mdp.39015060919126;view=1up;seq=17).
 
 
 
@@ -173,8 +173,8 @@ resp_psd_Q (0.00072, 3.146, 30.4)
     * Q = 1/(2*R_c)
 * Figure 9.17 illustrates the difficulty in designing for both shock and vibration.  Shock isolation occurs to the left of the amplification peak while vibration isolation occurs on the right. Equation for calculating amplification missing for graphs in Chp. 9. 
 * Velocity shocks, used when modeling drop tests.
-    * Assuming single DOF M-S-D, the dork done on the spring is equal to the kinetic energy of the mass. (1/2)*K*Y^2 = (1/2)*M*V^2
-    * Max acceleration: G_max = (a/g) = (V/g)*sqrt(K/M) = (V/g)*Omega, or G = (Delta*V*Omega)/g.
+    * Assuming single DOF M-S-D, the dork done on the spring is equal to the kinetic energy of the mass. (1/2) K Y^2 = (1/2) M V^2
+    * Max acceleration: G_max = (a/g) = (V/g) sqrt(K/M) = (V/g) Omega, or G = (Delta V Omega)/g.
 * Can not recreate Fig. 9.21 without a relationship between the amplification and the frequency ratio.
     * Impact damping only occurs at R = frequency_response/frequency_source <= 0.5
     * Danger area from 0.5 <= R <= 2
