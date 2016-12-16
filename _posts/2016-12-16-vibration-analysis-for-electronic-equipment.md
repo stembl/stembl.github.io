@@ -11,13 +11,12 @@ tags: [book,notes,vibration]
 
  Steinberg's Vibration Analysis for Electric Equipment was recommended to me as a good text for improving my understanding of random vibration testing.  This book turned out to be full of great information from the design of electronic chassis to fatigue analysis. Steinberg covers a large range of topics and starts with a simple model to explain each.  Often, he will extend this analysis into a slightly more complex model, but with assumptions that simplify the model. I appreciate the detail with which the simple models were derived and would have liked to have seen similar detail in the second order systems.
 
-I've taken notes on the areas related to my vibration work posted them to GetHub.  Below is an excerpt of some of the interesting results.
+I've taken notes on the areas related to my vibration work posted them to [GitHub](https://github.com/stembl/stembl.github.io/blob/master/public/ipy/Steinberg_1988/Steinberg%2C%20Vibration%20Analysis%20for%20Electronic%20Equipment.ipynb).  Below is an excerpt of some of the interesting results.
 
 ### 2.9, Forced Vibrations with Viscous Damping
 
 * Solving the response of a MSD system given a harmonic force acting on the mass.
     * Can I find a similar solution to this as a function of a harmonic deflection at the base of the spring and damper?
-    * $m{\ddot Y} + c{\dot Y} + KY = P_0cos(\Omega t)$
     * This derivation is not detailed, Eqn 2.43
 
 
@@ -62,21 +61,21 @@ plt.show()
 ![png](/public/ipy/Steinberg_1988/output_2_1.png)
 
 
-Damping occurs to the right of the amplification peak at $R_{\Omega} = \sqrt(2)$.
+Damping occurs to the right of the amplification peak at R_Omega = sqrt(2).
 
 ## Chapter 8, Understanding Random Vibration
 
-* "If two major structural resonances occur close to one another, they may produce severe dynamic coupling effects that can porduce rapid fatigue failures."
+* "If two major structural resonances occur close to one another, they may produce severe dynamic coupling effects that can produce rapid fatigue failures."
 * For a cyclically alternating electric current, RMS is equal to the value of the direct current that would produce the same average power dissipation in a resistive load.
 * Failure conditions
     1. High acceleration levels
     2. High stress levels
     3. Large displacement amplitudes
     4. Electrical signals out of tolerance - N.A.
-* 3$\sigma$ is often the limit used because it captures 99.7% of the accelerations and most labs have a 3$\sigma$ limit on their equipment.
-* In the math libray, natural log is called with (`log`) and log base 10 with (`log10`)
-* Multiple degree of freedom systems (8.29). $G_{out} = \sqrt{\sum{P_i \Delta f_i Q_i^2}}$
-* From: Crandall, Random Vibration, 1958.  $P_{out} = Q^2 P$.  Book available [online](https://babel.hathitrust.org/cgi/pt?id=mdp.39015060919126;view=1up;seq=17).
+* sigma is often the limit used because it captures 99.7% of the accelerations and most labs have a 3$\sigma$ limit on their equipment.
+* In the math library, natural log is called with (`log`) and log base 10 with (`log10`)
+* Multiple degree of freedom systems (8.29). G_out = sqrt(sum[P_i*Delta*f_i*Q_i^2])
+* From: Crandall, Random Vibration, 1958.  P_out = Q^2*P.  Book available [online](https://babel.hathitrust.org/cgi/pt?id=mdp.39015060919126;view=1up;seq=17).
 
 
 
@@ -170,18 +169,18 @@ resp_psd_Q (0.00072, 3.146, 30.4)
 
 
 ## Chapter 9, Designing for Shock Environments
-* Eqn. 9.40 - Damping ratio ~ $R_c = \frac{C}{C_c} = \frac{1}{2 Q}$
-    * $Q = \frac{1}{2 R_c}$
-* Figure 9.17 illustrates the difficulty in designing for both shock and vibration.  Shock isolation occurs to the left of the amplification peak while vibration isoliation occurs on the right. Equation for calculating amplification missing for graphs in Chp. 9. 
+* Eqn. 9.40 - Damping ratio ~ R_c = C/C_c = 1/(2*Q)
+    * Q = 1/(2*R_c)
+* Figure 9.17 illustrates the difficulty in designing for both shock and vibration.  Shock isolation occurs to the left of the amplification peak while vibration isolation occurs on the right. Equation for calculating amplification missing for graphs in Chp. 9. 
 * Velocity shocks, used when modeling drop tests.
-    * Assuming single DOF M-S-D, the dork done on the spring is equal to the kinetic energy of the mass. $\frac{1}{2} K Y^2 = \frac{1}{2} M V^2$
-    * Max accelertaion: $G_{max} = \frac{a}{g} = \frac{V}{g} \sqrt(\frac{K}{M}) = \frac{V}{g} \Omega$, or $G = \frac{\Delta V \Omega}{g}$.
+    * Assuming single DOF M-S-D, the dork done on the spring is equal to the kinetic energy of the mass. (1/2)*K*Y^2 = (1/2)*M*V^2
+    * Max acceleration: G_max = (a/g) = (V/g)*sqrt(K/M) = (V/g)*Omega, or G = (Delta*V*Omega)/g.
 * Can not recreate Fig. 9.21 without a relationship between the amplification and the frequency ratio.
-    * Impact damping only occurs at $R = \frac{frequency_{response}}{frequency_{source}} <= 0.5$
-    * Danger area from $0.5 <= R <= 2$
-    * This assumes an damping ratio of $R_c = 0.1$ and $Q = 5$
-    * These equations do not relate to velocity shocks in which the forcing frequncy is determined by the natural frequency.  
-* For velocity shocks max expected G can be calculated or if the response is known, the natural freuqncy should fall out as function of the repsonse G and the height.
+    * Impact damping only occurs at R = frequency_response/frequency_source <= 0.5
+    * Danger area from 0.5 <= R <= 2
+    * This assumes an damping ratio of R_c = 0.1 and Q = 5
+    * These equations do not relate to velocity shocks in which the forcing frequency is determined by the natural frequency.  
+* For velocity shocks max expected G can be calculated or if the response is known, the natural frequency should fall out as function of the response G and the height.
 
 
 ```python
