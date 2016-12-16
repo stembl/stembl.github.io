@@ -169,8 +169,8 @@ resp_psd_Q (0.00072, 3.146, 30.4)
 
 
 ## Chapter 9, Designing for Shock Environments
-* Eqn. 9.40 - Damping ratio ~ R_c = C/C_c = 1/(2*Q)
-    * Q = 1/(2*R_c)
+* Eqn. 9.40 - Damping ratio ~ R_c = C/C_c = 1/(2 Q)
+    * Q = 1/(2 R_c)
 * Figure 9.17 illustrates the difficulty in designing for both shock and vibration.  Shock isolation occurs to the left of the amplification peak while vibration isolation occurs on the right. Equation for calculating amplification missing for graphs in Chp. 9. 
 * Velocity shocks, used when modeling drop tests.
     * Assuming single DOF M-S-D, the dork done on the spring is equal to the kinetic energy of the mass. (1/2) K Y^2 = (1/2) M V^2
