@@ -11,7 +11,7 @@ tags: [book,notes,vibration]
 
  Steinberg's Vibration Analysis for Electric Equipment was recommended to me as a good text for improving my understanding of random vibration testing.  This book turned out to be full of great information from the design of electronic chassis to fatigue analysis. Steinberg covers a large range of topics and starts with a simple model to explain each.  Often, he will extend this analysis into a slightly more complex model, but with assumptions that simplify the model. I appreciate the detail with which the simple models were derived and would have liked to have seen similar detail in the second order systems.
 
-I've taken notes on the areas related to my vibration work posted them to [GitHub](https://github.com/stembl/stembl.github.io/blob/master/public/ipy/Steinberg_1988/Steinberg%2C%20Vibration%20Analysis%20for%20Electronic%20Equipment.ipynb).  Below is an excerpt of some of the interesting results.
+I've taken notes on the areas related to my vibration work posted them to [GitHub](https://github.com/stembl/stembl.github.io/blob/master/public/ipy/Steinberg_1988/Steinberg_1988.ipynb).  Below is an excerpt of some of the interesting results.
 
 ### 2.9, Forced Vibrations with Viscous Damping
 

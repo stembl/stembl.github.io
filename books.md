@@ -18,4 +18,4 @@ title: To Read
 
 ## Finished
 - [`10/09/2016` ] Fangohr, Hans. Introduction to Python for Computational Science and Engineering, 2015. [Notes](https://github.com/stembl/stembl.github.io/blob/master/public/ipy/Fangohr_2015/Fangohr_Python_Intro.ipynb)
-- [`16/11/2016` ] Steinberg, Dave. Vibration Analysis for Electronic Equipment, 2nd ed., 1988. [Notes]()
+- [`16/11/2016` ] Steinberg, Dave. Vibration Analysis for Electronic Equipment, 2nd ed., 1988. [Notes](https://github.com/stembl/stembl.github.io/blob/master/public/ipy/Steinberg_1988/Steinberg_1988.ipynb)
