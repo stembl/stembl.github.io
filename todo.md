@@ -13,4 +13,4 @@ title: Task List
 
 ## Complete
 - [`12/11/2016`] Figure out why favicon not working on my android phone.
-- - [`12/19/2016`] Add images to replace cat., tags, linkedin, email, and github.
+- [`12/19/2016`] Add images to replace cat., tags, linkedin, email, and github.
