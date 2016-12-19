@@ -6,6 +6,12 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">
     {{ post.date | date_to_string }}
+    {% if post.tags != empty %}
+    |
+    {% for tag in post.tags %}
+    <code class="highlighter-rouge"><a class="codinfox-tag-mark" href="/tag/#{{ tag | slugify }}"><i class="fa fa-tag fa-fw fa-lg"></i> {{ tag }}</a></code>
+    {% endfor %}
+    {% endif %}
   </span>
   {{ content }}
   <div id="disqus_thread"></div>
