@@ -30,7 +30,7 @@ Here we generate all the categories.
 {% endfor %}
 
 <h1 class="page-title">
-  <a href="/">Home</a> | <a href="/tag/"><i class="fa fa-tags fa-fw fa-lg"></i> Tags</a> | <i class="fa fa-folder-open-o fa-fw fa-lg"></i> {{ page.title }}
+  <a href="/">Home</a> | <a href="/tag/"><i class="fa fa-tags fa-fw fa-lg"></i></a> | <i class="fa fa-folder-open-o fa-fw fa-lg"></i>
 </h1>
 <br/>
 
@@ -43,7 +43,7 @@ Here we generate all the categories.
 </p>
 
 {% for ct in cats %}
-<h2 id="{{ ct | slugify }}"><i class="fa fa-folder-o fa-fw fa-lg"></i>{{ ct }}</h2>
+<h2 id="{{ ct | slugify }}">{{ ct }}</h2>
 <ul class="codinfox-category-list">
   {% for post in site.posts %}
   {% if post.category contains ct %}
