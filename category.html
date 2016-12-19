@@ -37,13 +37,13 @@ Here we generate all the categories.
 <div class="posts">
 <p>
 {% for ct in cats %}
-<code class="highlighter-rouge"><a href="#{{ ct | slugify }}" class="codinfox-category-mark" style="color:#999;text-decoration: none;"> {{ ct }} </a></code> &nbsp;&nbsp;
+<code class="highlighter-rouge"><a href="#{{ ct | slugify }}" class="codinfox-category-mark" style="color:#999;text-decoration: none;"> <i class="fa fa-folder-o fa-fw fa-lg"></i> {{ ct }} </a></code> &nbsp;&nbsp;
 {% endfor %}
 <code class="highlighter-rouge"><a href="#no-category" class="codinfox-category-mark" style="color:#999;text-decoration: none;"> No Category </a></code> &nbsp;&nbsp;
 </p>
 
 {% for ct in cats %}
-<h2 id="{{ ct | slugify }}">{{ ct }}</h2>
+<h2 id="{{ ct | slugify }}"><i class="fa fa-folder-o fa-fw fa-lg"></i>{{ ct }}</h2>
 <ul class="codinfox-category-list">
   {% for post in site.posts %}
   {% if post.category contains ct %}
