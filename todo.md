@@ -3,7 +3,6 @@ title: Task List
 ---
 
 ## Blog
-- [ ] Add images to replace cat., tags, linkedin, email, and github.
 - [ ] modify newpost.bat to include cat. and tags.
 - [ ] Automate path insertion for images, jupyter posts.
 - [ ] Call same header for resume, todo, and books
@@ -14,3 +13,4 @@ title: Task List
 
 ## Complete
 - [`12/11/2016`] Figure out why favicon not working on my android phone.
+- - [`12/19/2016`] Add images to replace cat., tags, linkedin, email, and github.
