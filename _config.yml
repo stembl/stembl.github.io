@@ -19,7 +19,7 @@ paginate:            5
 baseurl:          /
 
 # About/contact
-author:			  Steve Embleton
+author:			  
   name:           Steve Embleton
   url:            http://www.stembl.github.io
   email:          embleton@gmail.com
