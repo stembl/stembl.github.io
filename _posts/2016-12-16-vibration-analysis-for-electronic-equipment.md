@@ -74,7 +74,7 @@ Damping occurs to the right of the amplification peak at \[ \R_{Omega} = \sqrt(2
     4. Electrical signals out of tolerance - N.A.
 * sigma is often the limit used because it captures 99.7% of the accelerations and most labs have a 3*sigma limit on their equipment.
 * In the math library, natural log is called with (`log`) and log base 10 with (`log10`)
-* Multiple degree of freedom systems (8.29). \[ G_{out} = \sqrt(\sum(P_i \Delta f_i Q_i^2)) \]
+* Multiple degree of freedom systems (8.29). $$ G_{out} = \sqrt(\sum(P_i \Delta f_i Q_i^2)) $$
 * From: Crandall, Random Vibration, 1958.  \[ P_{out} = Q^2 P \].  Book available [online](https://babel.hathitrust.org/cgi/pt?id=mdp.39015060919126;view=1up;seq=17).
 
 
