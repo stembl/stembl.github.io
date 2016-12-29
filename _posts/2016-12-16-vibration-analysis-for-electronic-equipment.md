@@ -61,7 +61,7 @@ plt.show()
 ![png](/public/ipy/Steinberg_1988/output_2_1.png)
 
 
-Damping occurs to the right of the amplification peak at $R_{Omega} = \sqrt(2)$.
+Damping occurs to the right of the amplification peak at $R_{\Omega} = \sqrt(2)$.
 
 ## Chapter 8, Understanding Random Vibration
 
@@ -174,9 +174,9 @@ $$Q = \frac{1}{2 R_c}$$
 * Figure 9.17 illustrates the difficulty in designing for both shock and vibration.  Shock isolation occurs to the left of the amplification peak while vibration isolation occurs on the right. Equation for calculating amplification missing for graphs in Chp. 9. 
 * Velocity shocks, used when modeling drop tests.
     * Assuming single DOF M-S-D, the dork done on the spring is equal to the kinetic energy of the mass. $\frac{1}{2} K Y^2 = \frac{1}{2} M V^2$
-    * Max acceleration: $G_{max} = \frac{a}{g} = \frac{V}{g} \sqrt(\frac{K}{M}) = \frac{V}{g} \Omega$, or $G = \frac{\Delta V \Omega}{g}.
+    * Max acceleration: $G_{max} = \frac{a}{g} = \frac{V}{g} \sqrt(\frac{K}{M}) = \frac{V}{g} \Omega$, or $G = \frac{\Delta V \Omega}{g}$.
 * Can not recreate Fig. 9.21 without a relationship between the amplification and the frequency ratio.
-    * Impact damping only occurs at $R = \frac{frequency_{response}}{frequency_{source}} <= 0.5$
+    * Impact damping only occurs at $R = \frac{f_{response}}{f_{source}} <= 0.5$
     * Danger area from $0.5 <= R <= 2$
     * This assumes an damping ratio of $R_c = 0.1$ and $Q = 5$.
     * These equations do not relate to velocity shocks in which the forcing frequency is determined by the natural frequency.  
