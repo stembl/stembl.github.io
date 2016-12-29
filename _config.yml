@@ -17,10 +17,7 @@ tagline:          Exploring boundaries in physics and engineering.
 url:              http://stembl.github.io/
 paginate:            5
 baseurl:          /
-kramdown:
-   input: GFM
-   hard_wrap: false
-   # syntax_highlighter: rouge
+
 # About/contact
 author:			  Steve Embleton
   name:           Steve Embleton
