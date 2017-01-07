@@ -13,56 +13,6 @@ tags: [book,notes,vibration]
 
 I've taken notes on the areas related to my vibration work posted them to [GitHub](https://github.com/stembl/stembl.github.io/blob/master/public/ipy/Steinberg_1988/Steinberg_1988.ipynb).  Below is an excerpt of some of the interesting results.
 
-### 2.9, Forced Vibrations with Viscous Damping
-
-* Solving the response of a MSD system given a harmonic force acting on the mass.
-    * Can I find a similar solution to this as a function of a harmonic deflection at the base of the spring and damper?
-    * This derivation is not detailed, Eqn 2.43
-
-
-
-```python
-# Plotting Figure 2.17 using Eqn. 2.48.
-
-import numpy as np
-import matplotlib.pyplot as plt
-from math import sqrt
-from sympy import zeros
-
-R_c = np.arange(0,1,.1)        # R_c = c/c_c. This is the ratio of the damping to the critical damping
-R_Omega = np.arange(0,10,.01)   # R_Omega = Omega / Omega_n.  This is the ratio of the input frequency to the natural frequency.
-
-# Initialize the transmissibility Q 
-Q = zeros(len(R_c), len(R_Omega))
-
-# Equation 2.48
-def Q_Rc_RO(R_Omega, R_c):
-    Q = sqrt((1 + (2 * R_Omega * R_c)**2)/((1 - R_Omega**2)**2 + (2 * R_Omega * R_c)**2))
-    return(Q)
-
-for i in range(len(R_c)):
-    for j in range(len(R_Omega)):
-        Q[i,j] = Q_Rc_RO(R_Omega[j], R_c[i])
-        
-# Plot Results
-plt.semilogy(R_Omega,Q.T)
-plt.xlabel('$R_\Omega = \\frac{Forcing Frequency}{Natural Frequency} = \\frac{f}{f_n}$')
-plt.ylabel('$Q = \\frac{{Maximum Output Force}}{Maximum Input Force}$')
-plt.axis([0,10,0.1,10])
-plt.plot([0,10],[1,1],'k')
-plt.show()
-        
-```
-
-    C:\Anaconda3\lib\site-packages\ipykernel\__main__.py:16: RuntimeWarning: divide by zero encountered in double_scalars
-    
-
-
-![png](/public/ipy/Steinberg_1988/output_2_1.png)
-
-
-Damping occurs to the right of the amplification peak at $R_{\Omega} = \sqrt(2)$.
-
 ## Chapter 8, Understanding Random Vibration
 
 * "If two major structural resonances occur close to one another, they may produce severe dynamic coupling effects that can produce rapid fatigue failures."
