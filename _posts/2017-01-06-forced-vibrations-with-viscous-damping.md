@@ -20,6 +20,7 @@ $$Y = Y_0 cos(\Omega t - \theta).$$
 Taking the derivatives of this
 
 $${\dot Y} = Y_0 \Omega sin(\theta - \Omega t),$$
+
 $${\ddot Y} = -Y_0 \Omega^2 cos(\theta - \Omega t).$$
 
 Solving for $Y_0$ as a function of $P_0$ yeilds
