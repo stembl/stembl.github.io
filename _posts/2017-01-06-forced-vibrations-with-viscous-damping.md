@@ -2,9 +2,10 @@
 layout: post
 published: true
 title: Forced Vibrations With Viscous Damping
-category:examples
-tags:vibration
+category: examples
+tags: vibration
 ---
+
 
 `Steinberg, Dave. Vibration Analysis for Electronic Equipment, 2nd ed., 1988, Section 2.9`
 
@@ -79,9 +80,3 @@ plt.show()
 
 
 ![png](/public/ipy/Steinberg_1988/output_1_0.png)
-
-
-
-```python
-
-```
