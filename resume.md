@@ -84,12 +84,6 @@ Embleton, Steven T. Methodology for the Design of Hydrophone Acoustic Baffles an
 * Data Visualization
 * Prototyping, Mechatronics, Machine and Wood Shop
 
-## Projects
-
-### Blog
-
-I write an engineering blog at [stembl.github.io](http://stembl.github.io) where I apply Python to my research and post the results. My research focuses on the design extremes of nature and its applicability to human design.
-
 <!-- ### Footer
 
 Last updated: 12/09/2016 -->
