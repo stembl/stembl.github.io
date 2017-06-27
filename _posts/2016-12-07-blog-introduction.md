@@ -7,24 +7,24 @@ tags: goals
 ---
 ## Introduction
 
-I have always been interested in topics around the intersection of Nature and Design. I started really looking at the topic when the term biomimicry was introduced to describe technology inspired by biology.  At the time, the prototypical examples were Velcro and a exterior paint with self cleaning properties similar to a lotus flower. 
+I am a mechanical engineer with expertise in Design.  I have many interests however
+that fall outside of my field.  This blog is an attempt to organize my research
+and publish any interesting results or projects.
 
-Since then, amazing Designs have been found in Nature and we've been struggling to capitalize on them. I believe this is due to a variety of factors and one I would like to explore is the different design constraints between Human and Natural solutions.
+## Interests
 
-Since this is my only blog, I will also include interesting solutions I've worked on in my daily life as a mechanical engineer. Currently this revolves around shock, vibration, and packaging electronics.
+* Design Methodology and Manufacturing
+* Shock and Vibration
+* Biology
+* Machine Learning
+* 3D Printing
+* Controls and Automation
+* Data Visualization
 
-## Questions
+## Tools
 
-This blog attempt to address the following questions.
-
-* What are the Design constraints of Natural and Human systems?
-* How does Scale affect Natural and Human Design?
-* Can a method be developed to translate a Natural into a Human Design?
-
-## Methods
-
-To address these questions, I plan on employing a few different methods.
-
-* Writing code to illustrate interesting concepts.
-* Reading and posting notes to related books.
-* Writing posts to refine my understanding of the questions. 
+* Python
+* R
+* Octave
+* CREO
+* ANSYS
