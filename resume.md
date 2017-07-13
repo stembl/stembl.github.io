@@ -10,11 +10,11 @@ Mechanical Engineer
 |
 <i class="fa fa-github"></i> <a href="http://stembl.github.io">Blog</a>
 |
-<i class="fa fa-twitter"></i> <a href="http://steve.embletonblog.com">Profile</a>
+<i class="fa fa-user-circle"></i> <a href="http://steve.embletonblog.com">Profile</a>
 |
-<i class="fa fa-twitter"></i> <a href="http://www.linkedin.com/pub/steve-embleton/1b/287/591/">Linkedin</a>
+<i class="fa fa-linkedin-square"></i> <a href="http://www.linkedin.com/pub/steve-embleton/1b/287/591/">Linkedin</a>
 |
-<i class="fa fa-twitter"></i> <a href="tel:1-512-525-8278">512.565.8278</a>
+<i class="fa fa-phone-square"></i> <a href="tel:1-512-525-8278">512.565.8278</a>
 </div>
 ---
 
