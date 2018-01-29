@@ -13,14 +13,13 @@ permalink:           pretty
 
 # Setup
 title:            Natural Design
-tagline:          Exploring boundaries in physics and engineering.
+tagline:          Exploring boundaries between physics and engineering.
 url:              http://stembl.github.io/
 paginate:            5
 baseurl:          /
 
 # About/contact
-author:			  
+author:
   name:           Steve Embleton
   url:            http://www.stembl.github.io
   email:          embleton@gmail.com
-
