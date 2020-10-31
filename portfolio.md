@@ -48,14 +48,14 @@ Links:
 * [Dell Blog, New Pilot Program Eliminates Packaging for Large Scale Server Orders](https://www.delltechnologies.com/en-us/blog/new-pilot-program-eliminates-packaging-large-scale-server-orders/)
 * [YouTube, Transportation Tote: Good for the Environment, But Not the Fort](https://www.youtube.com/watch?v=avTVxay0PHg)
 
-![Transportation Tote](public/img/tote.jpg)
+![Transportation Tote](public/img/tote.JPG)
 
 ![Transportation Tote FEA](public/img/tote2.PNG)
 
 ### Dell DSS 9000
 The DSS 9000 is a scalable rack infrastructure aimed at the largest cloud companies.  In deployments of this rack level solution I provided analysis for shock and vibration, tolerances, manufacturability, transportation, and integration.  The solution required maintaining +/- 1.6 mm spacing across the internal width  from the bottom to top of the rack.  This was especially challenging given the bolted together, multi-piece, sheet metal structure.  The power bus bar also proved an interesting challenge in ensuring it would maintain the proper contact force after transportation when fully loaded.
 
-![DSS 9000](public/img/dss9000-2.jpg)
+![DSS 9000](public/img/dss9000-2.JPG)
 
 ![Surface Roughness](public/img/busbar2.PNG)
 
@@ -101,7 +101,7 @@ In designing a low cost shipping solution I was afforded the opportunity to deve
 
 I designed a US submarine sonar system 75% lighter and 90% cheaper than existing solutions.  This is an old solution, but it was a really interesting problem.  I challenged decades of sonar design history and developed a story convincing enough to lead to this systems deployment. This system needed to be easy to install and repair, withstand wave slap and pressure at depth, and be easy to manufacture.
 
-![Sonar](public/img/sub.jpg)
+![Sonar](public/img/sub.JPG)
 
 ---
 
@@ -195,7 +195,7 @@ I made this for a friend using [ambrosial's](https://www.thingiverse.com/thing:2
 
 The model below was built using one of UT's early SLS 3D printers.  The device needed to illustrate a transforming motorcycle using RC car actuators.  
 
-![Transforming Motorcycle](public/img/motorcycle.jpg)
+![Transforming Motorcycle](public/img/motorcycle.JPG)
 
 ---
 ## Patents List
@@ -261,16 +261,16 @@ During the Spring 2010 semester I took an Engineering Design Theory and Mathemat
 ### CoolCore Business Concept
 CoolCore Technologies was a business concept my group developed in a Lab to Market class.  This concept was built around a non-invasive medical device invented by a professor at UT.  With this business plan, we won second place in the Idea to Product competition at UT.
 
-![Cool Core](public/img/coolcore.jpg)
+![Cool Core](public/img/coolcore.JPG)
 
 ### Sea Turtle UUV
 
 Before my full time appointment at ARL, I was the mechanical design lead of a UUV designed as a cost effective platform for testing sonar design from our Lake Travis Testing Station.  This project spanned a few years and was the combined effort of mechanical, electrical and computer science engineers.
 
-![Sea Turtle UUV](public/img/seaturtle.jpg)
+![Sea Turtle UUV](public/img/seaturtle.JPG)
 
 ### UTeach Helmet Impact Measuremnt
 
 While working with UTeach, I developed a test stand to allow high school students to measure the force imparted on a head for a variety of helmets.  Challenges in the project stem from the cost limitations and simple construction techniques and user interface required.  The stand pictured here is the first proof of concept.  The final stand was half the cost, with a head cast from a polymer with a similar density to a human head.
 
-![Head Test](public/img/headtest.jpg)
+![Head Test](public/img/headtest.JPG)
