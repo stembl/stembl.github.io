@@ -72,7 +72,7 @@ Our group at Dell specialized in shipping fully loaded configurations to the lar
 
 ![Tip Bracket](public/img/tip.PNG)
 
-![U Bracket](public/mg/ubracket.PNG)
+![U Bracket](public/img/ubracket.PNG)
 
 ![U Bracket Detail](public/img/ubracket2.PNG)
 
