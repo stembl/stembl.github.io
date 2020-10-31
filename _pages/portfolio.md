@@ -1,7 +1,8 @@
 ---
 layout: default
 published: true
-title: Portfolio
+title: "Portfolio"
+permalink: portfolio
 ---
 # Portfolio
 Update: 10/30/2020
