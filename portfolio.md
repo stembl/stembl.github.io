@@ -72,9 +72,9 @@ Our group at Dell specialized in shipping fully loaded configurations to the lar
 
 ![Tip Bracket](public/img/tip.png)
 
-![U Bracket](public/mg/Ubracket.png)
+![U Bracket](public/mg/ubracket.png)
 
-![U Bracket Detail](public/img/Ubracket2.png)
+![U Bracket Detail](public/img/ubracket2.png)
 
 ### EIA Flange Jigs
 
