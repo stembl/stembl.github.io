@@ -22,11 +22,11 @@
 					  background-color:#6a9fb5;
 					  border: 1px solid #6a9fb5;}
 		</style>
-	    
+
 		<table style="text-align:center;" width=100%;>
 	  		<tr>
 	    	<td style="background-color:#6a9fb5;"><a href="/">Home</a></td>
-			<td style="background-color:#6a9fb5;"><a href="http://steve.embletonblog.com" target="_blank">About</a></td>
+			<td style="background-color:#6a9fb5;"><a href="/portfolio.html" target="_blank">Portfolio</a></td>
 			<td style="background-color:#6a9fb5;"><a href="/resume/">Resume</a></td>
 	 		</tr>
 			<tr>
@@ -44,7 +44,7 @@
 		</table>
 
     </div>
-    
+
 	{% for post in site.posts %}
       <a class="sidebar-nav-item" href="{{ post.url }}">{{ post.date | date_to_string }} &raquo; {{ post.title }}</a>
     {% endfor %}
