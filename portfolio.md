@@ -1,3 +1,8 @@
+---
+layout: default
+published: true
+title: Portfolio
+---
 # Portfolio
 Update: 10/30/2020
 
