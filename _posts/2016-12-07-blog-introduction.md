@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 published: true
 title: Blog Introduction
 category: blog
