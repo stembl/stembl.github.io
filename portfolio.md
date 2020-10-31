@@ -36,9 +36,9 @@ On this project we were asked to build an IT enclosure with an EMR attenuation o
 
 This project lasted a year and a half from customer request through first purchase.  During that time I greatly expanded my knowledge of EMI concerns, products, testing, sealing techniques, and modeling. I also advanced my research into structural vibration and impact modeling.  
 
-![RF Secure Rack](public/img/federer2.png)
+![RF Secure Rack](public/img/federer2.PNG)
 
-![RF Secure Rack](public/img/federer.png)
+![RF Secure Rack](public/img/federer.PNG)
 
 
 ### Transportation Tote
@@ -50,37 +50,37 @@ Links:
 
 ![Transportation Tote](public/img/tote.jpg)
 
-![Transportation Tote FEA](public/img/tote2.png)
+![Transportation Tote FEA](public/img/tote2.PNG)
 
 ### Dell DSS 9000
 The DSS 9000 is a scalable rack infrastructure aimed at the largest cloud companies.  In deployments of this rack level solution I provided analysis for shock and vibration, tolerances, manufacturability, transportation, and integration.  The solution required maintaining +/- 1.6 mm spacing across the internal width  from the bottom to top of the rack.  This was especially challenging given the bolted together, multi-piece, sheet metal structure.  The power bus bar also proved an interesting challenge in ensuring it would maintain the proper contact force after transportation when fully loaded.
 
 ![DSS 9000](public/img/dss9000-2.jpg)
 
-![Surface Roughness](public/img/busbar2.png)
+![Surface Roughness](public/img/busbar2.PNG)
 
 
 ### Dell DSS 7000
 
 The DSS7000 is a very dense storage solution with 100 hard drives in 5U of space.  On this product I participated in the architectural concepts, shock an vibration analysis, and integration and serviceability.  
 
-![DSS 7000](public/img/dss7000.png)
+![DSS 7000](public/img/dss7000.PNG)
 
 ### Rack Hardware
 
 Our group at Dell specialized in shipping fully loaded configurations to the largest cloud companies.  This has led to the requirement of many custom brackets and other hardware.  Some of the more interesting solutions included a tip bracket designed to install in 30 seconds, fit within 50 mm, and withstand a 4000 lb. rack tipping 10 degrees.  Another was the development of a bracket to eliminate the need for a crate during transportation of our DSS 9000 racks.
 
-![Tip Bracket](public/img/tip.png)
+![Tip Bracket](public/img/tip.PNG)
 
-![U Bracket](public/mg/ubracket.png)
+![U Bracket](public/mg/ubracket.PNG)
 
-![U Bracket Detail](public/img/ubracket2.png)
+![U Bracket Detail](public/img/ubracket2.PNG)
 
 ### EIA Flange Jigs
 
 As mentioned above, IT racks need to maintain a very tight tolerance across the internal width.  This ensures the IT equipment may both be installed and not collapse.  Some IT equipment rely on rails with ledges only a few millimeters long.  To ensure our racks and our partners racks met this requirement I designed a jig that could be easily built, light weight, robust, and ensure the racks were within tolerance.    
 
-![EIA Flange Jig](public/img/jig.png)
+![EIA Flange Jig](public/img/jig.PNG)
 
 ### Modular Ramp
 
@@ -88,13 +88,13 @@ One of the options we offered was white glove delivery in which we would unload 
 
 My design goals for this rack was a modular system with each piece weighing less then 50 lbs, easy to assemble, and capable of withstanding a rolling rack weighing 6000 lbs.  The biggest problems for this solution occur when shipping racks with six casters instead of four.  This leads to a moment of instability and an impact when the rack rotates into place on the ramp.  Following the impact, the next biggest challenge was securing the side panels as the ramp passes through maximum deflection.
 
-![Ramp Test](public/img/ramptest.png)
+![Ramp Test](public/img/ramptest.PNG)
 
 ### Cast AL Brackets
 
 In designing a low cost shipping solution I was afforded the opportunity to develop a cast AL bracket that could maintain a rack in position on a shock pallet during the roughest transportation scenarios.  This effort included 3D printed test fits, FEA analysis, and production samples.
 
-![AL Brackets](public/img/longhorn3.png)
+![AL Brackets](public/img/longhorn3.PNG)
 
 
 ### Light Weight Sonar
@@ -112,24 +112,24 @@ I designed a US submarine sonar system 75% lighter and 90% cheaper than existing
 
 Lately I've really enjoyed building system models of next generation servers that use two-phase fluid for component cooling. The models required solving for the boiling and condensation performance of a variety of power levels, components, fluids, condenser features, and facility water temperatures. These models were validated against published results and are now being compared with test systems.  These models have been used to validate future concepts and explore the potential design space.  Below is a set of images illustrating a solution as the fluid and component surface coating varies.  After that is an image illustrating the wall temperature of select components as the power increases.
 
-![2-Phase Solutions](public/img/2phase.png)
+![2-Phase Solutions](public/img/2phase.PNG)
 
-![2-Phase with Varying Comps](public/img/2phase-comps.png)
+![2-Phase with Varying Comps](public/img/2phase-comps.PNG)
 
 ### Rack Level LC Design Space
 
 Dell is ramping up the addition of liquid cooling to its PowerEdge portfolio.  In doing so, we need a method for quickly determining the required liquid components given a desired server, power per rack, and the number of racks in the deployment.  To solve this problem I built a tool in python to solve the thermal-fluid problem.  I then iterated this solution over all of the component variables to identify solutions that would address the immediate customer needs.  This would allow us to prioritize our development resources.  Below is an image of the process followed by a map of solution cost per node as the power per rack and number of racks vary.
 
-![LC Rack Process](public/img/lcrack-process.png)
+![LC Rack Process](public/img/lcrack-process.PNG)
 
-![LC Rack Cost Map](public/img/lcrack.png)
+![LC Rack Cost Map](public/img/lcrack.PNG)
 
 ### Transportation Analysis
 I developed a custom application to efficiently analyze weeks worth of shock and vibration data reducing analysis time 92%. This data is collected to validate Dell shock and vibration testing or to analyze new transportation methods. This system is a key differentiator for Dell when compared to our competition. Below is an image illustrating the process followed by some example results.
 
-![Transportation Process](public/img/trans-process.png)
+![Transportation Process](public/img/trans-process.PNG)
 
-![Transportation Results](public/img/trans-results.png)
+![Transportation Results](public/img/trans-results.PNG)
 
 ---
 ## 3D Printed
@@ -143,9 +143,9 @@ This design led to a collaboration with Noe from Adafruit leading to a motorized
 
 [Thingiverse, Hackable Guardian Robot](https://www.thingiverse.com/thing:2391826)
 
-![Robot](public/img/robot.png)
+![Robot](public/img/robot.PNG)
 
-![Robot, Hackable](public/img/robot-hack.png)
+![Robot, Hackable](public/img/robot-hack.PNG)
 
 
 ### NASA Space Fabric
@@ -158,14 +158,14 @@ The model is 2 X the size of the NASA segments with a linking arm diameter of 2 
 
 [Thingiverse, Nasa Space Fabric](https://www.thingiverse.com/thing:2422015)
 
-![Nasa Space Fabric](public/img/nasa.png)
+![Nasa Space Fabric](public/img/nasa.PNG)
 
 
 ### Auxetic Materials
 
 I find auxetic materials fascinating and I am always considering where they may find an interesting application.  One thought was for a flat packable bicycle helment.  The model below was used to explore this concept.
 
-![Auxetic Concept](public/img/auxetic.png)
+![Auxetic Concept](public/img/auxetic.PNG)
 
 ### Growler Tap
 
@@ -175,13 +175,13 @@ With this print I wanted to build something not possible with traditional techni
 
 Another goal was to make the parts easily washable, a common complaint with the production units.  To achieve this, I added an o-ring that seals the tube which is inserted into the beer.
 
-![Growler Tap](public/img/tap.png)
+![Growler Tap](public/img/tap.PNG)
 
 ### Sous Vide Controller
 
 I had all of the parts to create a 20 dollar sous vide controller and I was looking at 10 dollars for an off-the-shelf box.  I used this as an opportunity to try and build a custom enclosure for my device.  My goal with the enclosure was to create a part using a single run that was as dense as possible and looked seam-less.
 
-![Sous Vide Controller](public/img/sousvide.png)
+![Sous Vide Controller](public/img/sousvide.PNG)
 
 ### Life Counter  
 
@@ -189,7 +189,7 @@ I made this for a friend using [ambrosial's](https://www.thingiverse.com/thing:2
 
 [Thingiverse, Sensei's Divining Top with Scroll Work](https://www.thingiverse.com/thing:2377665)
 
-![Sensei's Divining Top with Scroll Work](public/img/top.png)
+![Sensei's Divining Top with Scroll Work](public/img/top.PNG)
 
 ### Transforming Motorcycle
 
@@ -256,7 +256,7 @@ The model below was built using one of UT's early SLS 3D printers.  The device n
 ### Twist Light Re-Design
 During the Spring 2010 semester I took an Engineering Design Theory and Mathematical Techniques course.  In this course I reverse engineered a Brookstone's twist light and developed multiple parametric and adaptive redesign concepts.  Documentation of this course and the results may be found [here](https://sites.google.com/site/flashlightredesign/).
 
-![Yankee Drive Concept](public/img/yankee.png)
+![Yankee Drive Concept](public/img/yankee.PNG)
 
 ### CoolCore Business Concept
 CoolCore Technologies was a business concept my group developed in a Lab to Market class.  This concept was built around a non-invasive medical device invented by a professor at UT.  With this business plan, we won second place in the Idea to Product competition at UT.
