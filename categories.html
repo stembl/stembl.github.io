@@ -33,7 +33,7 @@ Here we generate all the categories.
 <h2 class="page-title"; style="text-align:center">
   <a href="/"><i class="fa fa-home fa-fw fa-lg"></i></a> |
   <i class="fa fa-folder-open-o fa-fw fa-lg"></i> |
-  <a href="/tag/"><i class="fa fa-tags fa-fw fa-lg"></i></a>
+  <a href="/tags"><i class="fa fa-tags fa-fw fa-lg"></i></a>
 </h2>
 <br/>
 
@@ -58,7 +58,7 @@ Here we generate all the categories.
 
 	  <!-- adds tags to the end of posts
 	  {% for tag in post.tags %}
-      <a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
+      <a class="codinfox-tag-mark" href="/blog/tags/#{{ tag | slugify }}">{{ tag }}</a>
       {% endfor %}-->
 
     </h3>
@@ -81,7 +81,7 @@ Here we generate all the categories.
 
 	  <!--
       {% for tag in post.tags %}
-      <a class="codinfox-tag-mark" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
+      <a class="codinfox-tag-mark" href="/blog/tags/#{{ tag | slugify }}">{{ tag }}</a>
       {% endfor %}-->
     </h3>
   </li>
