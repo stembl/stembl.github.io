@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Portfolio"
-permalink: portfolio/
 ---
 # Portfolio
 Update: 10/30/2020
