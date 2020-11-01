@@ -46,7 +46,7 @@
     </div>
 
 	{% for post in site.posts %}
-      <a class="sidebar-nav-item" href="{{ post.url }}" target="_parent">{{ post.date | date_to_string }} &raquo; {{ post.title }}</a>
+      <a class="sidebar-nav-item" href="{{ post.url }}">{{ post.date | date_to_string }} &raquo; {{ post.title }}</a>
     {% endfor %}
   </nav>
 
