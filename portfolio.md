@@ -9,14 +9,14 @@ Update: 10/30/2020
 ---
 ## Index
 ---
-1. [Introduction](#introduction)
-1. [Design](#design)
-1. [Modeling and Automation](#modeling-and-automation)
-1. [Testing](#testing)
-1. [3D Printed](#3d-printed)
-1. [Patents List](#patents-list)
-1. [Publications and Reports](#publications-and-reports)
-1. [Other Interesting Projects](#other-interesting-projects)
+1. [Introduction](portfolio#introduction)
+1. [Design](portfolio#design)
+1. [Modeling and Automation](portfolio#modeling-and-automation)
+1. [Testing](portfolio#testing)
+1. [3D Printed](portfolio#3d-printed)
+1. [Patents List](portfolio#patents-list)
+1. [Publications and Reports](portfolio#publications-and-reports)
+1. [Other Interesting Projects](portfolio#other-interesting-projects)
 
 ---
 ## Introduction

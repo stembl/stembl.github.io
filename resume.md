@@ -14,13 +14,13 @@ Systems Engineer with a passion for innovation.  More than 10 years experience i
 
 ## PATENTS
 
-**20 Granted** and 43 Applications. Recent areas include ML, Reliability, Edge, and Liquid Cooling.
+[20 Granted](https://scholar.google.com/citations?user=FnGkK-1_v4MC&hl=en&oi=sra) and 43 Applications. Recent areas include ML, Reliability, Edge, and Liquid Cooling.
 
 Select Granted Patents:
-* **US9445534B2** A lightweight server chassis that doubles as packaging enabling a Netflix model for servers.
-* **US20180350376A1** A method for reducing false acceptance of voice activated systems (Siri).
-* **US20180163985A1** A controller for monitoring reliability impacting events during transportation.
-* **US9839164B2**  A modular liquid distribution system for integrated racks.
+* [US9445534B2](https://patents.google.com/patent/US9445534B2/) A lightweight server chassis that doubles as packaging enabling a Netflix model for servers.
+* [US20180350376A1](https://patents.google.com/patent/US20180350376A1/) A method for reducing false acceptance of voice activated systems (Siri).
+* [US20180163985A1](https://patents.google.com/patent/US20180163985A1) A controller for monitoring reliability impacting events during transportation.
+* [US9839164B2](https://patents.google.com/patent/US9839164B2/en)  A modular liquid distribution system for integrated racks.
 
 ## STRENGTHS AND SKILLS
 
@@ -32,7 +32,7 @@ Select Granted Patents:
 
 ## WORK EXPERIENCE
 
-**Dell**
+[Dell](https://www.dell.com/en-us)
 
 `Systems Development Engineer`, 06/2012 - Present
 
@@ -46,14 +46,14 @@ Drove suppliers building a custom rack to improve tolerance loop and manufacturi
 Composed custom applications to efficiently analyze weeks worth of shock and vibration data reducing analysis time 92%.
 Implemented impact and vibration data collection system to capture real world transportation environmental conditions improving validation, packaging, and server design.
 
-**University of Texas**
+[University of Texas](https://www.utexas.edu)
 
 `Graduate Research Assistant`, 08/2008 - 05/2012
 
 Engineering technical adviser and content developer for UTeach pilots.
-Thesis: Methodology for the Design of Hydrophone Acoustic Baffles and Supporting Materials
+[Thesis](https://docs.google.com/a/embletonblog.com/viewer?a=v&pid=sites&srcid=ZW1ibGV0b25ibG9nLmNvbXxzdGV2ZXxneDo1YzhlYmQ5ZmM4MmE2MTk2): Methodology for the Design of Hydrophone Acoustic Baffles and Supporting Materials
 
-**Applied Research Laboratories**
+[Applied Research Laboratories](http://www.arlut.utexas.edu)
 
 `Engineering Scientist Associate`, 01/2007 - 08/2008
 
