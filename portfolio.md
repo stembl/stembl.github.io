@@ -5,10 +5,14 @@ permalink: portfolio/
 permalink: portfolio
 permalink: portfolio.html
 ---
+
 # Portfolio
 Updated: 10/30/2020
+
 ---
+
 ## Index
+
 ---
 1. [Introduction](portfolio#introduction)
 1. [Design](portfolio#design)
@@ -19,13 +23,17 @@ Updated: 10/30/2020
 1. [Other Interesting Projects](portfolio#other-interesting-projects)
 
 ---
+
 ## Introduction
+
 ---
 
 Systems Engineer with a passion for innovation.  More than 10 years experience in analysis, modeling, and design of complex systems from submarine sonar to servers.
 
 ---
+
 ## Design
+
 ---
 
 These design related projects are listed in chronological order are some mechanical designs which I've led or contributed to significantly.
@@ -111,6 +119,7 @@ I designed a US submarine sonar system 75% lighter and 90% cheaper than existing
 ---
 
 ## Modeling and Automation
+
 ---
 
 ### 2-phase Concept Development
@@ -137,7 +146,9 @@ I developed a custom application to efficiently analyze weeks worth of shock and
 ![Transportation Results](public/img/trans-results.PNG)
 
 ---
+
 ## 3D Printed
+
 ---
 ### Guardian Robot
 After printing the Maker Figure my son and I sat down to design our own robot. During our concept generation session it quickly became apparent that my son, who is four, was asking me to design a robot that looked very similar to one from a video game he had seen. With that drawing as a template we built a few prototypes of the body and legs before settling on the parts that have been uploaded. According to my son, "It's perfect, exactly what I wanted."
@@ -203,7 +214,9 @@ The model below was built using one of UT's early SLS 3D printers.  The device n
 ![Transforming Motorcycle](public/img/motorcycle.JPG)
 
 ---
+
 ## Patents List
+
 ---
 
 [20 Granted](https://scholar.google.com/citations?user=FnGkK-1_v4MC&hl=en&oi=sra) and 43 Applications. Recent areas include ML, Reliability, Edge, and Liquid Cooling.
@@ -247,7 +260,9 @@ The model below was built using one of UT's early SLS 3D printers.  The device n
 |6|Transportation|
 
 ---
+
 ## Publications and Reports
+
 ---
 * [Methodology for the design of hydrophone acoustic baffles and supporting materials](https://docs.google.com/a/embletonblog.com/viewer?a=v&pid=sites&srcid=ZW1ibGV0b25ibG9nLmNvbXxzdGV2ZXxneDo1YzhlYmQ5ZmM4MmE2MTk2)
 * [Experimental study of piezoelectret foams as underwater sensors](https://asa.scitation.org/doi/abs/10.1121/1.2934735)
@@ -256,8 +271,11 @@ The model below was built using one of UT's early SLS 3D printers.  The device n
 * [Design of Sound Absorption Treatments for a Music Venue](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZW1ibGV0b25ibG9nLmNvbXxzdGV2ZXxneDo0M2M0MGFmODQzZTBiYTcx)
 
 ---
+
 ## Other Interesting Projects
+
 ---
+
 ### Twist Light Re-Design
 During the Spring 2010 semester I took an Engineering Design Theory and Mathematical Techniques course.  In this course I reverse engineered a Brookstone's twist light and developed multiple parametric and adaptive redesign concepts.  Documentation of this course and the results may be found [here](https://sites.google.com/site/flashlightredesign/).
 
