@@ -1,10 +1,12 @@
 ---
 layout: default
 title: "Portfolio"
-permalink: [portfolio,portfolio/,portfolio.html]
+permalink: portfolio
+permalink: portfolio/
+permalink: portfolio.html
 ---
 # Portfolio-123
-Update: 10/30/2020
+Updated: 10/30/2020
 
 ---
 ## Index
