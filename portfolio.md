@@ -1,30 +1,28 @@
 ---
 layout: default
 title: "Portfolio"
-permalink: portfolio
 permalink: portfolio/
+permalink: portfolio
 permalink: portfolio.html
 ---
-# Portfolio-123
+# Portfolio
 Updated: 10/30/2020
-
 ---
 ## Index
 ---
-1. [Introduction](/portfolio#introduction)
-1. [Design](/portfolio#design)
-1. [Modeling and Automation](/portfolio#modeling-and-automation)
-1. [Testing](/portfolio#testing)
-1. [3D Printed](/portfolio#3d-printed)
-1. [Patents List](/portfolio#patents-list)
-1. [Publications and Reports](/portfolio#publications-and-reports)
-1. [Other Interesting Projects](/portfolio#other-interesting-projects)
+1. [Introduction](portfolio#introduction)
+1. [Design](portfolio#design)
+1. [Modeling and Automation](portfolio#modeling-and-automation)
+1. [3D Printed](portfolio#3d-printed)
+1. [Patents List](portfolio#patents-list)
+1. [Publications and Reports](portfolio#publications-and-reports)
+1. [Other Interesting Projects](portfolio#other-interesting-projects)
 
 ---
 ## Introduction
 ---
 
-123 Systems Engineer with a passion for innovation.  More than 10 years experience in analysis, modeling, and design of complex systems from submarine sonar to servers.
+Systems Engineer with a passion for innovation.  More than 10 years experience in analysis, modeling, and design of complex systems from submarine sonar to servers.
 
 ---
 ## Design
