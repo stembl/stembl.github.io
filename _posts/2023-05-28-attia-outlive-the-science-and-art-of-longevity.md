@@ -12,9 +12,10 @@ tags: [book, health]
 
 ## Summary
 
+This book covers the cognative, physical, and emotional decline that occurs as we age. They then address steps we can take to minimize how far down this slope we shide using exercise, sleep, emotional heath, nutrition, and drugs. Attia and Gifford review in detail studies and the state of the art of each tactic cutting through the hyperbole common in reporting. Below I've caputred notes of interst to me as well as actions I can take to put these solutions into practice.
+
 Workout and sleep more, eat and drink less. As we age our physical and cognative abilities degrade significantly from our current starting point. To improve our future capability we need to improve our starting position and continually work to combat the areas aging affects the most. We should strive to be at a peak of holistic performance while continuously monitoring our condition to address risks as early as possible.
 
-This book covers the cognative, physical, and emotional decline that occurs as we age. They then address steps we can take to minimize how far down this slope we shide using exercise, sleep, emotional heath, nutrition, and drugs. Attia and Gifford review in detail studies and the state of the art of each tactic cutting through the hyperbole common in reporting. Below I've caputred notes of interst to me as well as actions I can take to put these solutions into practice.
 
 ## Terms
 
