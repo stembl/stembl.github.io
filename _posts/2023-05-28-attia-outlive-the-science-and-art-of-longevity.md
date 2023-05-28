@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Attia, Outlive The Science And Art Of Longevity
+title: Outlive The Science And Art Of Longevity
 category: notes
 tags: [book, health]
 ---
