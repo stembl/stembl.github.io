@@ -49,7 +49,7 @@ I owned the mechanical and thermal design of a large planar magnetic. This compo
 
 ![Planar PCB Temperature](public/img/planar_pcb_temp.png)
 
-![Planar Tolerances](public/img/tol_feature.png)
+![Planar Tolerances](public/img/tols_feature.png)
 
 ![Planar Yield](public/img/tol_yield.png)
 
