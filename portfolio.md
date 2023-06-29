@@ -38,7 +38,7 @@ Systems Engineer with a passion for innovation.  More than 10 years experience i
 
 These design related projects are listed in chronological order are some mechanical designs which I've led or contributed to significantly.
 
-### New Tesla Product Thermal Design
+### Novel Power Electronics Meachnical and Thermal Design
 I was the lead for thermal design and simulation of components on a new Tesla product. This included initial validation of heat transfer through the heatsink, simulation and refinement of novel magnetics components, and ensuring an adequate thermal buffer was maintained throughout the design process. 
 
 I owned the mechanical and thermal design of a large planar magnetic. This component requried months of iteration to optimize the shape, efficiency, thermal performance, and manufacturability. I was responsible for working with the supplier to improve their manufacturing process and tolerances.
