@@ -137,9 +137,21 @@ I designed a US submarine sonar system 75% lighter and 90% cheaper than existing
 
 ---
 
+### Automated Profilometer Analysis
+
+*** Details after product release ***
+
+### Optimized Thermally Sensitive Component Pitch
+
+For an array of components that are close to their thermal limit I wrote a program to determine the smallest pitch while maintaining adequate cooling. This required determining the heat transfer coefficient of the heat sink as a function of length and the component thermal resistance into the heat sink. 
+
+![Component Location on Heat Sink](public/img/comp_hs_temp.png)
+
+![Component Power vs Heat Sink Pitch](public/img/comp_hs_temp.png)
+
 ### 2-phase Concept Development
 
-Lately I've really enjoyed building system models of next generation servers that use two-phase fluid for component cooling. The models required solving for the boiling and condensation performance of a variety of power levels, components, fluids, condenser features, and facility water temperatures. These models were validated against published results and are now being compared with test systems.  These models have been used to validate future concepts and explore the potential design space.  Below is a set of images illustrating a solution as the fluid and component surface coating varies.  After that is an image illustrating the wall temperature of select components as the power increases.
+I really enjoyed building system models of next generation servers that use two-phase fluid for component cooling. The models required solving for the boiling and condensation performance of a variety of power levels, components, fluids, condenser features, and facility water temperatures. These models were validated against published results and are now being compared with test systems.  These models have been used to validate future concepts and explore the potential design space.  Below is a set of images illustrating a solution as the fluid and component surface coating varies.  After that is an image illustrating the wall temperature of select components as the power increases.
 
 ![2-Phase Solutions](public/img/2phase.PNG)
 
