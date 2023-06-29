@@ -7,7 +7,7 @@ permalink: portfolio.html
 ---
 
 # Portfolio
-Updated: 10/30/2020
+Updated: 06/29/2023
 
 ---
 
@@ -147,7 +147,7 @@ For an array of components that are close to their thermal limit I wrote a progr
 
 ![Component Location on Heat Sink](public/img/comp_hs_temp.png)
 
-![Component Power vs Heat Sink Pitch](public/img/comp_hs_temp.png)
+![Component Power vs Heat Sink Pitch](public/img/hs_comp_pwr.png)
 
 ### 2-phase Concept Development
 
