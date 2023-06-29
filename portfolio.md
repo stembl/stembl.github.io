@@ -43,15 +43,15 @@ I was the lead for thermal design and simulation of components on a new Tesla pr
 
 I owned the mechanical and thermal design of a large planar magnetic. This component requried months of iteration to optimize the shape, efficiency, thermal performance, and manufacturability. I was responsible for working with the supplier to improve their manufacturing process and tolerances.
 
-![Planar MAgnetic Flux Density](public/img/mag_flux.PNG)
+![Planar Magnetic Flux Density](public/img/mag_flux.png)
 
-![Planar Temperature](public/img/planar_temp.PNG)
+![Planar Temperature](public/img/planar_temp.png)
 
-![Planar PCB Temperature](public/img/planar_pcb_temp.PNG)
+![Planar PCB Temperature](public/img/planar_pcb_temp.png)
 
-![Planar Tolerances](public/img/tol_feature.PNG)
+![Planar Tolerances](public/img/tol_feature.png)
 
-![Planar Yield](public/img/tol_yield.PNG)
+![Planar Yield](public/img/tol_yield.png)
 
 ### RF Secure Rack
 I led the mechanical design of the Dell RF shielded rack designed to allow our customers to deploy thousands of IOT devices in a small footprint for application development. Developed with  a smaller footprint and better performance when compared with existing solutions we delivered the only product that met or exceeded all of our customer's requirements.
