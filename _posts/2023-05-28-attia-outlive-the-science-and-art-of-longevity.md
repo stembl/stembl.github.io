@@ -50,9 +50,22 @@ Workout and sleep more, eat and drink less. As we age our physical and cognative
     * Chronic inflamation
     * Increase in ALT liver enzymes
 
+## Cardio
+* Zone 2 ~ A speed fast enough that a conversation becomes strained. 
+    *     The maximum level of effort we can maintain without accumulating lactate.
+    * With a lactate monitor: 1.7 - 2.0 millimoles
+    * ~ 70 - 85% of peak heart rate
+    * Three hours per week or four 45 minute sessions minimum
+    * Two Watts per kilogram reasonable, shoot for 3 W/kg
+
+* VO2 Max
+    * Train for as high a V02 max as possible
+    * Four mins (max pace you can sustain for four minutes), four minutes jogging, repeat four - six times.
+    * Once per week unless training for an event
+
 ## Strength
 * Grip Strength
-    * 60 Farmers walk, 1/2 body weight in each hand
+    * 60 second Farmers walk, 1/2 body weight in each hand
     * 120 second hang on pull up bar
 * Pulling motions
     * Pull ups and Rows
