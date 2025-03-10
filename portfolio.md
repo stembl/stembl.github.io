@@ -45,7 +45,7 @@ I led a cross-functional team to develop a novel approach for the 4680 cells, re
 
 On a technical level, I developed advanced tools that allowed for fundamental evaluations of the system, enabling parametric sweeps to optimize both material properties and geometric designs. Additionally, I invented several novel concepts for installing mechanical structures within the cell, all of which led to substantial improvements over existing solutions. This work contributed not only to the performance and durability of the 4680 cell but also to its overall manufacturability and cost efficiency.
 
-![Tesla 4680](public/img/tesla_4680.png)
+![Tesla 4680](public/img/tesla_4680.jpg)
 
 ### Novel Power Electronics Meachnical and Thermal Design
 I was the lead for thermal design and simulation of components on a new Tesla product. This included initial validation of heat transfer through the heatsink, simulation and refinement of novel magnetics components, and ensuring an adequate thermal buffer was maintained throughout the design process. 
