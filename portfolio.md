@@ -28,7 +28,7 @@ Updated: 06/29/2023
 
 ---
 
-Systems Engineer with a passion for innovation.  More than 10 years experience in analysis, modeling, and design of complex systems from submarine sonar to servers.
+Innovative and passionate Design Engineer with over 10 years of experience in mechanical design, analysis, and modeling. Proven ability to drive cost-effective, cutting-edge solutions in high-performance industries, including energy storage, data centers, and precision engineering. Skilled at leading cross-functional teams to develop industry-leading hardware solutions.
 
 ---
 
@@ -38,16 +38,20 @@ Systems Engineer with a passion for innovation.  More than 10 years experience i
 
 These design related projects are listed in chronological order are some mechanical designs which I've led or contributed to significantly.
 
+### Tesla 4680 In-House Mechanical Design
+As the energy density of battery cells increases, so do the mechanical forces that the structure must withstand over time. I was tasked with leading a team to address and mitigate mechanical deformation in next-generation 4680 cells, specifically under higher energy densities. The challenge was to maintain structural integrity while optimizing for cost, weight, and performance.
+
+I led a cross-functional team to develop a novel approach for the 4680 cells, resulting in an 80% reduction in cost and a 70% reduction in weight compared to previous solutions. These improvements have the potential to save $100M annually, making a significant impact on both the economics of production and the scalability of manufacturing.
+
+On a technical level, I developed advanced tools that allowed for fundamental evaluations of the system, enabling parametric sweeps to optimize both material properties and geometric designs. Additionally, I invented several novel concepts for installing mechanical structures within the cell, all of which led to substantial improvements over existing solutions. This work contributed not only to the performance and durability of the 4680 cell but also to its overall manufacturability and cost efficiency.
+
+![Tesla 4680](public/img/tesla_4680.png)
+
 ### Novel Power Electronics Meachnical and Thermal Design
 I was the lead for thermal design and simulation of components on a new Tesla product. This included initial validation of heat transfer through the heatsink, simulation and refinement of novel magnetics components, and ensuring an adequate thermal buffer was maintained throughout the design process. 
 
 I owned the mechanical and thermal design of a large planar magnetic. This component requried months of iteration to optimize the shape, efficiency, thermal performance, and manufacturability. I was responsible for working with the supplier to improve their manufacturing process and tolerances.
 
-![Planar Magnetic Flux Density](public/img/mag_flux.png)
-
-![Planar Temperature](public/img/planar_temp.png)
-
-![Planar PCB Temperature](public/img/planar_pcb_temp.png)
 
 ![Planar Tolerances](public/img/tols_feature.png)
 
